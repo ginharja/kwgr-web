@@ -92,6 +92,7 @@ $sql = "
            pm.nama,
            pm.kode_motor      AS kode,
            pm.harga,
+           pm.deskripsi      AS deskripsi,
            COUNT(md.id)       AS unit
     FROM product_motor pm
     JOIN motor_detail md
@@ -99,7 +100,7 @@ $sql = "
      AND md.deleted_at IS NULL
      AND md.status_motor = 'TERSEDIA'
     WHERE pm.deleted_at IS NULL
-    GROUP BY pm.id, pm.nama, pm.kode_motor, pm.harga
+    GROUP BY pm.id, pm.nama, pm.kode_motor, pm.harga, pm.deskripsi
     ORDER BY unit DESC, pm.nama ASC
 ";
 $sqlWarna = "
@@ -192,6 +193,7 @@ try {
             'unit'     => (int)$r['unit'],
             'warna'    => $warnaByMotor[$r['id']] ?? [],
             'foto'     => $slug . '.webp',
+            'deskripsi'=> $r['deskripsi'] ?? null,
             'foto2'    => is_file(__DIR__ . '/../assets/img/' . $slug . '-2.webp') ? $slug . '-2.webp' : null,
             'kategori' => $__cfg['kategori'][$slug] ?? 'Lainnya',
         ];

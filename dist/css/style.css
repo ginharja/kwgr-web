@@ -319,3 +319,8 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ---------- Logo brand ---------- */
 .brand img { height: 40px; width: auto; display: block; }
+
+/* ---------- Spesifikasi teknis ---------- */
+.spec-detail { margin-top: 24px; padding: 20px 22px; border: 1px solid rgba(255,255,255,.10); border-radius: 12px; background: rgba(255,255,255,.04); }
+.spec-detail h2, .spec-detail h4 { margin: 0 0 10px; color: #8DC63F; }
+.spec-detail p { margin: 0; color: #cdd3d8; font-size: .98rem; line-height: 1.75; }

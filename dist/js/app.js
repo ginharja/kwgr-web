@@ -145,6 +145,9 @@
     var foto2 = m.foto2
       ? '<div class="modal-photo"><img src="assets/img/' + esc(m.foto2) + '" alt="Motor Kawasaki ' + esc(m.nama) + ' tampak lain" loading="lazy"></div>'
       : "";
+    var deskripsi = m.deskripsi
+      ? '<div class="spec-detail"><h4>Spesifikasi Teknis</h4><p>' + esc(m.deskripsi) + '</p></div>'
+      : "";
     els.modalBody.innerHTML =
       '<div class="modal-photo">' +
         '<img src="assets/img/' + esc(m.foto) + '" alt="Motor Kawasaki ' + esc(m.nama) + '">' +
@@ -161,6 +164,7 @@
           "<li><span>Warna</span>" + warna + "</li>" +
           "<li><span>Kode Motor</span><b>" + esc(m.kode) + "</b></li>" +
         "</ul>" +
+        deskripsi +
         '<div class="modal-actions">' +
           '<a class="btn btn-primary" href="' + waHref(m) + '" target="_blank" rel="noopener">💬 Tanya & Cek Ketersediaan</a>' +
           '<a class="btn btn-ghost" href="' + detailHref(m) + '">Lihat Halaman Detail</a>' +
