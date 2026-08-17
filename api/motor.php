@@ -95,6 +95,10 @@ $sql = "
            pm.deskripsi       AS deskripsi,
            pm.foto            AS foto,
            pm.foto2           AS foto2,
+           pm.foto3           AS foto3,
+           pm.foto4           AS foto4,
+           pm.foto5           AS foto5,
+           pm.foto6           AS foto6,
            pm.kategori        AS kategori,
            COUNT(md.id)       AS unit
     FROM product_motor pm
@@ -103,7 +107,7 @@ $sql = "
      AND md.deleted_at IS NULL
      AND md.status_motor = 'TERSEDIA'
     WHERE pm.deleted_at IS NULL
-    GROUP BY pm.id, pm.nama, pm.kode_motor, pm.harga, pm.deskripsi, pm.foto, pm.foto2, pm.kategori
+    GROUP BY pm.id, pm.nama, pm.kode_motor, pm.harga, pm.deskripsi, pm.foto, pm.foto2, pm.foto3, pm.foto4, pm.foto5, pm.foto6, pm.kategori
     ORDER BY unit DESC, pm.nama ASC
 ";
 $sqlWarna = "
@@ -193,6 +197,10 @@ try {
         $foto2 = !empty($r['foto2'])
             ? (string)$r['foto2']
             : ($slug !== null && is_file(__DIR__ . '/../assets/img/' . $slug . '-2.webp') ? $slug . '-2.webp' : null);
+        $foto3 = !empty($r['foto3']) ? (string)$r['foto3'] : null;
+        $foto4 = !empty($r['foto4']) ? (string)$r['foto4'] : null;
+        $foto5 = !empty($r['foto5']) ? (string)$r['foto5'] : null;
+        $foto6 = !empty($r['foto6']) ? (string)$r['foto6'] : null;
         $out[] = [
             'id'        => (int)$r['id'],
             'nama'      => $r['nama'],
@@ -202,6 +210,10 @@ try {
             'warna'     => $warnaByMotor[$r['id']] ?? [],
             'foto'      => $foto,
             'foto2'     => $foto2,
+            'foto3'     => $foto3,
+            'foto4'     => $foto4,
+            'foto5'     => $foto5,
+            'foto6'     => $foto6,
             'deskripsi' => $r['deskripsi'] ?? null,
             'kategori'  => $kategori,
         ];

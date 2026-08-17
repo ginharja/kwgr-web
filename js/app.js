@@ -143,9 +143,12 @@
     var warna = (m.warna && m.warna.length)
       ? m.warna.map(function (w) { return "<b>" + esc(w) + "</b>"; }).join(", ")
       : "<b>—</b>";
-    var foto2 = m.foto2
-      ? '<div class="modal-photo"><img src="assets/img/' + esc(m.foto2) + '" alt="Motor Kawasaki ' + esc(m.nama) + ' tampak lain" loading="lazy"></div>'
-      : "";
+    var galeri = "";
+    [m.foto2, m.foto3, m.foto4, m.foto5, m.foto6].forEach(function (f) {
+      if (f) {
+        galeri += '<div class="modal-photo"><img src="assets/img/' + esc(f) + '?v=6" alt="Motor Kawasaki ' + esc(m.nama) + ' tampak lain" loading="lazy"></div>';
+      }
+    });
     var deskripsi = m.deskripsi
       ? '<div class="spec-detail"><h4>Spesifikasi Teknis</h4><p>' + esc(m.deskripsi) + '</p></div>'
       : "";
@@ -154,7 +157,7 @@
         '<img src="assets/img/' + esc(m.foto) + '?v=6" alt="Motor Kawasaki ' + esc(m.nama) + '">' +
         '<p class="img-caption">Gambar hanya ilustrasi, warna sesuai yang tersedia di toko.</p>' +
       "</div>" +
-      foto2 +
+      galeri +
       '<div class="modal-info">' +
         '<p class="modal-kode">' + esc(m.kode) + "</p>" +
         "<h3>" + esc(m.nama) + "</h3>" +

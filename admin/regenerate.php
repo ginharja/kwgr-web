@@ -49,12 +49,14 @@ function regenerate_site(): array {
     $rows = $pdo->query("
         SELECT pm.id, pm.nama, pm.kode_motor AS kode, pm.harga,
                COALESCE(pm.foto,'') AS foto, COALESCE(pm.foto2,'') AS foto2,
+               COALESCE(pm.foto3,'') AS foto3, COALESCE(pm.foto4,'') AS foto4,
+               COALESCE(pm.foto5,'') AS foto5, COALESCE(pm.foto6,'') AS foto6,
                COALESCE(pm.kategori,'Lainnya') AS kategori, COALESCE(pm.deskripsi,'') AS deskripsi,
                COUNT(md.id) AS unit
         FROM product_motor pm
         JOIN motor_detail md ON md.id_motor = pm.id AND md.deleted_at IS NULL AND md.status_motor = 'TERSEDIA'
         WHERE pm.deleted_at IS NULL
-        GROUP BY pm.id, pm.nama, pm.kode_motor, pm.harga, pm.foto, pm.foto2, pm.kategori, pm.deskripsi
+        GROUP BY pm.id, pm.nama, pm.kode_motor, pm.harga, pm.foto, pm.foto2, pm.foto3, pm.foto4, pm.foto5, pm.foto6, pm.kategori, pm.deskripsi
         ORDER BY COUNT(md.id) DESC, pm.nama ASC
     ")->fetchAll();
 
@@ -78,9 +80,12 @@ function regenerate_site(): array {
         $descMeta = $nama . ' (' . $m['kode'] . ') tersedia ' . $m['unit'] . ' unit di dealer resmi Kawasaki Greentech, Riau. Harga ' . $harga . ' OTR*.';
         $title = $nama . ' — Harga & Stok ' . $harga . ' | Kawasaki Greentech';
 
-        $foto2block = $m['foto2'] !== ''
-            ? '<img src="../assets/img/' . kwgr_esc($m['foto2']) . '?v=6" alt="Motor Kawasaki ' . kwgr_esc($nama) . ' tampak lain" loading="lazy" width="800" height="450">'
-            : '';
+        $foto2block = '';
+        foreach ([$m['foto2'], $m['foto3'], $m['foto4'], $m['foto5'], $m['foto6']] as $gf) {
+            if ($gf !== '') {
+                $foto2block .= '<img src="../assets/img/' . kwgr_esc($gf) . '?v=6" alt="Motor Kawasaki ' . kwgr_esc($nama) . ' tampak lain" loading="lazy" width="800" height="450">';
+            }
+        }
 
         $specsHtml = '';
         foreach ([
