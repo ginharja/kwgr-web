@@ -316,3 +316,6 @@ button { font-family: inherit; cursor: pointer; }
 /* ---------- Instagram embed ---------- */
 .ig-embed { display: flex; flex-direction: column; align-items: center; gap: 18px; }
 .ig-embed iframe { max-width: 420px; width: 100%; }
+
+/* ---------- Logo brand ---------- */
+.brand img { height: 40px; width: auto; display: block; }
