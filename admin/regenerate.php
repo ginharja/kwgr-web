@@ -173,7 +173,7 @@ function regenerate_site(): array {
 <script type="application/ld+json">{$ldJson}</script>
 <script type="application/ld+json">{$ldBcJson}</script>
 <script type="application/ld+json">{$ldFaqJson}</script>
-<link rel="stylesheet" href="../css/style.css?v=7">
+<link rel="stylesheet" href="../css/style.css?v=8">
 </head>
 <body>
 <header class="site-header">

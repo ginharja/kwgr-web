@@ -105,7 +105,6 @@
           '<span class="card-badge">● Tersedia</span>' +
           '<span class="card-cat">' + esc(m.kategori) + "</span>" +
           '<img src="assets/img/' + esc(m.foto) + '?v=7" alt="Motor Kawasaki ' + esc(m.nama) + '" loading="lazy" width="640" height="400">' +
-          '<p class="img-caption">Gambar hanya ilustrasi, warna sesuai yang tersedia di toko.</p>' +
         "</div>" +
         '<div class="card-body">' +
           '<p class="card-kode">' + esc(m.kode) + "</p>" +
