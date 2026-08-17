@@ -1,0 +1,640 @@
+{
+ "sumber": "ERP Kawasaki Greentech (greentech_prod) — product_motor + motor_detail",
+ "diperbarui": "2026-08-17",
+ "catatan": "Hanya unit berstatus TERSEDIA. Harga belum termasuk pajak & biaya; hubungi dealer untuk penawaran resmi.",
+ "total_unit": 542,
+ "motor": [
+  {
+   "id": 485,
+   "nama": "KLX150 SE+ LX150K-L370",
+   "kode": "LX150K-L370",
+   "harga": 44500000,
+   "unit": 122,
+   "warna": [
+    "ABU-ABU",
+    "HIJAU",
+    "HITAM"
+   ],
+   "foto": "klx150se.webp",
+   "kategori": "Trail",
+   "foto2": "klx150se-2.webp"
+  },
+  {
+   "id": 530,
+   "nama": "KLX150 SE+ LX150K-R370",
+   "kode": "LX150K-R370",
+   "harga": 44500000,
+   "unit": 99,
+   "warna": [
+    "HITAM"
+   ],
+   "foto": "klx150se.webp",
+   "kategori": "Trail",
+   "foto2": "klx150se-2.webp"
+  },
+  {
+   "id": 492,
+   "nama": "KLX150SM SE LX150M-H370",
+   "kode": "LX150M-H370",
+   "harga": 44600000,
+   "unit": 75,
+   "warna": [
+    "ABU-ABU",
+    "HIJAU",
+    "HITAM",
+    "PUTIH"
+   ],
+   "foto": "klx150sm.webp",
+   "kategori": "Lainnya",
+   "foto2": "klx150sm-2.webp"
+  },
+  {
+   "id": 531,
+   "nama": "KLX140 LX140C-G370",
+   "kode": "LX140C-G370",
+   "harga": 45400000,
+   "unit": 52,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "klx140.webp",
+   "kategori": "Trail",
+   "foto2": "klx140-2.webp"
+  },
+  {
+   "id": 527,
+   "nama": "KLX150SM SE LX150M-L370",
+   "kode": "LX150M-L370",
+   "harga": 44600000,
+   "unit": 46,
+   "warna": [
+    "ABU-ABU",
+    "HIJAU",
+    "HITAM",
+    "PUTIH"
+   ],
+   "foto": "klx150sm.webp",
+   "kategori": "Lainnya",
+   "foto2": "klx150sm-2.webp"
+  },
+  {
+   "id": 395,
+   "nama": "KLX150S LX150L-C370",
+   "kode": "LX150L-C370",
+   "harga": 37100000,
+   "unit": 26,
+   "warna": [
+    "HIJAU",
+    "HITAM"
+   ],
+   "foto": "klx150s.webp",
+   "kategori": "Trail"
+  },
+  {
+   "id": 400,
+   "nama": "KLX150SM SE LX150M-D370",
+   "kode": "LX150M-D370",
+   "harga": 43800000,
+   "unit": 23,
+   "warna": [
+    "ABU-ABU",
+    "HIJAU",
+    "HITAM"
+   ],
+   "foto": "klx150sm.webp",
+   "kategori": "Lainnya",
+   "foto2": "klx150sm-2.webp"
+  },
+  {
+   "id": 447,
+   "nama": "KLX150SM SE LX150M-F370",
+   "kode": "LX150M-F370",
+   "harga": 44600000,
+   "unit": 14,
+   "warna": [
+    "ABU-ABU",
+    "HIJAU",
+    "HITAM"
+   ],
+   "foto": "klx150sm.webp",
+   "kategori": "Lainnya",
+   "foto2": "klx150sm-2.webp"
+  },
+  {
+   "id": 397,
+   "nama": "KLX150 SE+ LX150K-F370",
+   "kode": "LX150K-F370",
+   "harga": 44500000,
+   "unit": 7,
+   "warna": [
+    "BIRU",
+    "HIJAU",
+    "KUNING",
+    "ORANGE"
+   ],
+   "foto": "klx150se.webp",
+   "kategori": "Trail",
+   "foto2": "klx150se-2.webp"
+  },
+  {
+   "id": 519,
+   "nama": "KLE500 SE LE500D-A346",
+   "kode": "LE500D-A346",
+   "harga": 162300000,
+   "unit": 5,
+   "warna": [
+    "ABU-ABU"
+   ],
+   "foto": "kle500.webp",
+   "kategori": "Adventure"
+  },
+  {
+   "id": 455,
+   "nama": "KLX150 SE+ LX150K-H370",
+   "kode": "LX150K-H370",
+   "harga": 44500000,
+   "unit": 5,
+   "warna": [
+    "ABU-ABU",
+    "ORANGE"
+   ],
+   "foto": "klx150se.webp",
+   "kategori": "Trail",
+   "foto2": "klx150se-2.webp"
+  },
+  {
+   "id": 513,
+   "nama": "W175 ABS BJ175H-A370",
+   "kode": "BJ175H-A370",
+   "harga": 41800000,
+   "unit": 4,
+   "warna": [
+    "ABU-ABU",
+    "PUTIH"
+   ],
+   "foto": "w175.webp",
+   "kategori": "Retro"
+  },
+  {
+   "id": 535,
+   "nama": "KLX230R LX232P-C370",
+   "kode": "LX232P-C370",
+   "harga": 56000000,
+   "unit": 4,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "klx230r.webp",
+   "kategori": "Off-Road"
+  },
+  {
+   "id": 445,
+   "nama": "NINJA H2 ZXT02J-F304",
+   "kode": "ZXT02J-F304",
+   "harga": 911000000,
+   "unit": 4,
+   "warna": [
+    "ABU-ABU"
+   ],
+   "foto": "ninjah2.webp",
+   "kategori": "Hypersport"
+  },
+  {
+   "id": 460,
+   "nama": "KX85 KX085D-B370",
+   "kode": "KX085D-B370",
+   "harga": 74800000,
+   "unit": 4,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "kx85.webp",
+   "kategori": "Off-Road"
+  },
+  {
+   "id": 495,
+   "nama": "MEGURO S1 BJ230B-B346",
+   "kode": "BJ230B-B346",
+   "harga": 83900000,
+   "unit": 3,
+   "warna": [
+    "ABU-ABU"
+   ],
+   "foto": "meguros1.webp",
+   "kategori": "Retro",
+   "foto2": "meguros1-2.webp"
+  },
+  {
+   "id": 510,
+   "nama": "Z900 SE ZR900T-C346",
+   "kode": "ZR900T-C346",
+   "harga": 259600000,
+   "unit": 3,
+   "warna": [
+    "ABU-ABU"
+   ],
+   "foto": "z900.webp",
+   "kategori": "Naked",
+   "foto2": "z900-2.webp"
+  },
+  {
+   "id": 539,
+   "nama": "KX65 KX065C-H401",
+   "kode": "KX065C-H401",
+   "harga": 66400000,
+   "unit": 3,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "kx65.webp",
+   "kategori": "Off-Road"
+  },
+  {
+   "id": 525,
+   "nama": "KFX90 SF090B-D2G1",
+   "kode": "SF090B-D2G1",
+   "harga": 58900000,
+   "unit": 2,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "kfx90.webp",
+   "kategori": "ATV"
+  },
+  {
+   "id": 500,
+   "nama": "KX450 KX450M-D401",
+   "kode": "KX450M-D401",
+   "harga": 218100000,
+   "unit": 2,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "kx450.webp",
+   "kategori": "Off-Road"
+  },
+  {
+   "id": 506,
+   "nama": "VERSYS-X 250 LE250F-B370",
+   "kode": "LE250F-B370",
+   "harga": 78300000,
+   "unit": 2,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "versysx250.webp",
+   "kategori": "Adventure",
+   "foto2": "versysx250-2.webp"
+  },
+  {
+   "id": 507,
+   "nama": "NINJA ZX-6R (636) ABS ZX636J-D304",
+   "kode": "ZX636J-D304",
+   "harga": 324600000,
+   "unit": 2,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "ninjax6r.webp",
+   "kategori": "Sport"
+  },
+  {
+   "id": 511,
+   "nama": "BRUTE FORCE 450 VF450A-B361",
+   "kode": "VF450A-B361",
+   "harga": 158000000,
+   "unit": 2,
+   "warna": [
+    "BIRU"
+   ],
+   "foto": "bruteforce450.webp",
+   "kategori": "ATV"
+  },
+  {
+   "id": 517,
+   "nama": "KLX150SM LX150M-G370",
+   "kode": "LX150M-G370",
+   "harga": 42200000,
+   "unit": 2,
+   "warna": [
+    "ABU-ABU"
+   ],
+   "foto": "klx150sm.webp",
+   "kategori": "Lainnya",
+   "foto2": "klx150sm-2.webp"
+  },
+  {
+   "id": 497,
+   "nama": "VULCAN S SE EN650D-S346",
+   "kode": "EN650D-S346",
+   "harga": 234500000,
+   "unit": 2,
+   "warna": [
+    "HITAM"
+   ],
+   "foto": "vulcans.webp",
+   "kategori": "Cruiser"
+  },
+  {
+   "id": 449,
+   "nama": "KLX110RL LX110D-B370",
+   "kode": "LX110D-B370",
+   "harga": 32100000,
+   "unit": 2,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "klx110r.webp",
+   "kategori": "Trail"
+  },
+  {
+   "id": 446,
+   "nama": "KLX150S LX150L-E370",
+   "kode": "LX150L-E370",
+   "harga": 37100000,
+   "unit": 2,
+   "warna": [
+    "ABU-ABU"
+   ],
+   "foto": "klx150s.webp",
+   "kategori": "Trail"
+  },
+  {
+   "id": 419,
+   "nama": "W175 TR SE BJ175C-G370",
+   "kode": "BJ175C-G370",
+   "harga": 38100000,
+   "unit": 2,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "w175.webp",
+   "kategori": "Retro"
+  },
+  {
+   "id": 536,
+   "nama": "KLX110R LX110C-C370",
+   "kode": "LX110C-C370",
+   "harga": 31700000,
+   "unit": 2,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "klx110r.webp",
+   "kategori": "Trail"
+  },
+  {
+   "id": 532,
+   "nama": "KLX250S LX250S-X370",
+   "kode": "LX250S-X370",
+   "harga": 83300000,
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "klx250s.webp",
+   "kategori": "Trail"
+  },
+  {
+   "id": 533,
+   "nama": "KLX150 LX150K-N370",
+   "kode": "LX150K-N370",
+   "harga": 41800000,
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "klx150.webp",
+   "kategori": "Trail"
+  },
+  {
+   "id": 534,
+   "nama": "KX112 KX112B-B370",
+   "kode": "KX112B-B370",
+   "harga": 78000000,
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "kx112.webp",
+   "kategori": "Off-Road"
+  },
+  {
+   "id": 537,
+   "nama": "KLX110RL LX110D-D370",
+   "kode": "LX110D-D370",
+   "harga": 32100000,
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "klx110r.webp",
+   "kategori": "Trail"
+  },
+  {
+   "id": 518,
+   "nama": "KLE500 LE500C-A346",
+   "kode": "LE500C-A346",
+   "harga": 155300000,
+   "unit": 1,
+   "warna": [
+    "ABU-ABU"
+   ],
+   "foto": "kle500.webp",
+   "kategori": "Adventure"
+  },
+  {
+   "id": 538,
+   "nama": "NINJA ZX-25R ABS ZX250K-K370",
+   "kode": "ZX250K-K370",
+   "harga": 135100000,
+   "unit": 1,
+   "warna": [
+    "ABU-ABU"
+   ],
+   "foto": "ninjax25r.webp",
+   "kategori": "Sport"
+  },
+  {
+   "id": 498,
+   "nama": "KLX150 SE LX150K-M370",
+   "kode": "LX150K-M370",
+   "harga": 42300000,
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "klx150se.webp",
+   "kategori": "Trail",
+   "foto2": "klx150se-2.webp"
+  },
+  {
+   "id": 512,
+   "nama": "KLX230 DF LX232Y-A370",
+   "kode": "LX232Y-A370",
+   "harga": 69900000,
+   "unit": 1,
+   "warna": [
+    "ABU-ABU"
+   ],
+   "foto": "klx230df.webp",
+   "kategori": "Off-Road"
+  },
+  {
+   "id": 505,
+   "nama": "BRUTE FORCE 300 VF300C-B2G1",
+   "kode": "VF300C-B2G1",
+   "harga": 110000000,
+   "unit": 1,
+   "warna": [
+    "BIRU"
+   ],
+   "foto": "bruteforce300.webp",
+   "kategori": "ATV"
+  },
+  {
+   "id": 501,
+   "nama": "KX250 KX252E-B401",
+   "kode": "KX252E-B401",
+   "harga": 159500000,
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "kx250.webp",
+   "kategori": "Off-Road"
+  },
+  {
+   "id": 234,
+   "nama": "KLX230 LX230B-A370",
+   "kode": "LX230B-A370",
+   "harga": 44300000,
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "klx230.webp",
+   "kategori": "Trail"
+  },
+  {
+   "id": 494,
+   "nama": "W230 BJ230A-B346",
+   "kode": "BJ230A-B346",
+   "harga": 77300000,
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "w230.webp",
+   "kategori": "Retro"
+  },
+  {
+   "id": 491,
+   "nama": "KLX230 SHERPA LX232S-B370",
+   "kode": "LX232S-B370",
+   "harga": 63600000,
+   "unit": 1,
+   "warna": [
+    "PUTIH"
+   ],
+   "foto": "klx230sherpa.webp",
+   "kategori": "Trail"
+  },
+  {
+   "id": 480,
+   "nama": "NINJA ZX-10R ZXT02L-G304",
+   "kode": "ZXT02L-G304",
+   "harga": 591500000,
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ],
+   "foto": "ninjax10r.webp",
+   "kategori": "Superbike"
+  },
+  {
+   "id": 476,
+   "nama": "W175 CAFE BJ175B-G370",
+   "kode": "BJ175B-G370",
+   "harga": 41000000,
+   "unit": 1,
+   "warna": [
+    "ABU-ABU"
+   ],
+   "foto": "w175.webp",
+   "kategori": "Retro"
+  },
+  {
+   "id": 466,
+   "nama": "W175 SE BLACK STYLE BJ175A-T370",
+   "kode": "BJ175A-T370",
+   "harga": 40500000,
+   "unit": 1,
+   "warna": [
+    "HITAM"
+   ],
+   "foto": "w175.webp",
+   "kategori": "Retro"
+  },
+  {
+   "id": 432,
+   "nama": "ELIMINATOR EL450A-A346",
+   "kode": "EL450A-A346",
+   "harga": 174800000,
+   "unit": 1,
+   "warna": [
+    "PUTIH"
+   ],
+   "foto": "eliminator450.webp",
+   "kategori": "Cruiser"
+  },
+  {
+   "id": 412,
+   "nama": "NINJA ZX-25R ABS ZX250K-C370",
+   "kode": "ZX250K-C370",
+   "harga": 135100000,
+   "unit": 1,
+   "warna": [
+    "BIRU"
+   ],
+   "foto": "ninjax25r.webp",
+   "kategori": "Sport"
+  },
+  {
+   "id": 300,
+   "nama": "NINJA RR SE KR150P-G370",
+   "kode": "KR150P-G370",
+   "harga": 39350000,
+   "unit": 1,
+   "warna": [
+    "ORANGE SE"
+   ],
+   "foto": "ninja250.webp",
+   "kategori": "Sport"
+  },
+  {
+   "id": 299,
+   "nama": "NINJA RR KR150P",
+   "kode": "KR150P",
+   "harga": 36500000,
+   "unit": 1,
+   "warna": [
+    "KUNING"
+   ],
+   "foto": "ninja250.webp",
+   "kategori": "Sport"
+  },
+  {
+   "id": 410,
+   "nama": "NINJA ZX-25R ZX250J-B370",
+   "kode": "ZX250J-B370",
+   "harga": 115600000,
+   "unit": 1,
+   "warna": [
+    "HITAM"
+   ],
+   "foto": "ninjax25r.webp",
+   "kategori": "Sport"
+  }
+ ]
+}

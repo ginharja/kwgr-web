@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /config/
+
+Sitemap: https://kawasakigreentech.co.id/sitemap.xml
