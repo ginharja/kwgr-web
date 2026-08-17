@@ -11,7 +11,7 @@
     // Di server Vultr: API live membaca DB ERP (SELECT-only, tanpa kredensial di sini)
     API: "api/motor.php",
     // Nomor WhatsApp sales (format internasional tanpa "+")
-    WA: "6285356878391",
+    WA: "6281277755006",
     WA_TEXT: "Halo Kawasaki Greentech, saya ingin bertanya tentang motor Kawasaki."
   };
 
