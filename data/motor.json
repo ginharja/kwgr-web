@@ -1,690 +1,786 @@
 {
- "sumber": "ERP Kawasaki Greentech (greentech_prod) — product_motor + motor_detail",
- "diperbarui": "2026-08-17",
- "catatan": "Hanya unit berstatus TERSEDIA. Harga belum termasuk pajak & biaya; hubungi dealer untuk penawaran resmi.",
- "total_unit": 542,
  "motor": [
   {
    "id": 485,
    "nama": "KLX150 SE+ LX150K-L370",
    "kode": "LX150K-L370",
    "harga": 44500000,
+   "foto": "klx150se.webp",
+   "foto2": "klx150se-2.webp",
+   "kategori": "Trail",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum: 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum: 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong: 118 kg. Kapasitas tangki: 6,9 litres. Tinggi tempat duduk: 865 mm. Rem depan: ø240 mm petal disc; rem belakang: ø190 mm petal disc.",
    "unit": 122,
    "warna": [
     "ABU-ABU",
+    "ABU-ABU",
+    "HITAM",
     "HIJAU",
-    "HITAM"
-   ],
-   "foto": "klx150se.webp",
-   "kategori": "Trail",
-   "foto2": "klx150se-2.webp",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong 118 kg. Kapasitas tangki 6,9 litres. Tinggi tempat duduk 865 mm. Rem depan ø240 mm petal disc; rem belakang ø190 mm petal disc."
+    "ABU-ABU",
+    "HIJAU"
+   ]
   },
   {
    "id": 530,
    "nama": "KLX150 SE+ LX150K-R370",
    "kode": "LX150K-R370",
    "harga": 44500000,
+   "foto": "klx150se.webp",
+   "foto2": "klx150se-2.webp",
+   "kategori": "Trail",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum: 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum: 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong: 118 kg. Kapasitas tangki: 6,9 litres. Tinggi tempat duduk: 865 mm. Rem depan: ø240 mm petal disc; rem belakang: ø190 mm petal disc.",
    "unit": 99,
    "warna": [
+    "HITAM",
+    "HITAM",
+    "HITAM",
+    "HITAM",
+    "HITAM",
     "HITAM"
-   ],
-   "foto": "klx150se.webp",
-   "kategori": "Trail",
-   "foto2": "klx150se-2.webp",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong 118 kg. Kapasitas tangki 6,9 litres. Tinggi tempat duduk 865 mm. Rem depan ø240 mm petal disc; rem belakang ø190 mm petal disc."
+   ]
   },
   {
    "id": 492,
    "nama": "KLX150SM SE LX150M-H370",
    "kode": "LX150M-H370",
    "harga": 44600000,
+   "foto": "klx150sm.webp",
+   "foto2": "klx150sm-2.webp",
+   "kategori": "Lainnya",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum: 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum: 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong: 119 kg. Kapasitas tangki: 6,9 litres. Tinggi tempat duduk: 840 mm. Rem depan: Semi-floating ø300 mm petal disc; rem belakang: ø220 mm petal disc.",
    "unit": 75,
    "warna": [
-    "ABU-ABU",
+    "HITAM",
     "HIJAU",
     "HITAM",
-    "PUTIH"
-   ],
-   "foto": "klx150sm.webp",
-   "kategori": "Lainnya",
-   "foto2": "klx150sm-2.webp",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong 119 kg. Kapasitas tangki 6,9 litres. Tinggi tempat duduk 840 mm. Rem depan Semi-floating ø300 mm petal disc; rem belakang ø220 mm petal disc."
+    "HIJAU",
+    "HITAM",
+    "HITAM"
+   ]
   },
   {
    "id": 531,
    "nama": "KLX140 LX140C-G370",
    "kode": "LX140C-G370",
    "harga": 45400000,
+   "foto": "klx140.webp",
+   "foto2": "klx140-2.webp",
+   "kategori": "Trail",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum: 8,3 kW {11 PS} / 8.000 rpm. Torsi maksimum: 12,0 Nm {1,2 kgfm} / 6.000 rpm. Berat kosong: 99 kg. Kapasitas tangki: 5,8 liter. Tinggi tempat duduk: 860 mm. Rem depan: ø220 mm petal disc; rem belakang: ø190 mm petal disc.",
    "unit": 52,
    "warna": [
+    "HIJAU",
+    "HIJAU",
+    "HIJAU",
+    "HIJAU",
+    "HIJAU",
     "HIJAU"
-   ],
-   "foto": "klx140.webp",
-   "kategori": "Trail",
-   "foto2": "klx140-2.webp",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum 8,3 kW {11 PS} / 8.000 rpm. Torsi maksimum 12,0 Nm {1,2 kgfm} / 6.000 rpm. Berat kosong 99 kg. Kapasitas tangki 5,8 liter. Tinggi tempat duduk 860 mm. Rem depan ø220 mm petal disc; rem belakang ø190 mm petal disc."
+   ]
   },
   {
    "id": 527,
    "nama": "KLX150SM SE LX150M-L370",
    "kode": "LX150M-L370",
    "harga": 44600000,
+   "foto": "klx150sm.webp",
+   "foto2": "klx150sm-2.webp",
+   "kategori": "Lainnya",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum: 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum: 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong: 119 kg. Kapasitas tangki: 6,9 litres. Tinggi tempat duduk: 840 mm. Rem depan: Semi-floating ø300 mm petal disc; rem belakang: ø220 mm petal disc.",
    "unit": 46,
    "warna": [
-    "ABU-ABU",
-    "HIJAU",
     "HITAM",
-    "PUTIH"
-   ],
-   "foto": "klx150sm.webp",
-   "kategori": "Lainnya",
-   "foto2": "klx150sm-2.webp",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong 119 kg. Kapasitas tangki 6,9 litres. Tinggi tempat duduk 840 mm. Rem depan Semi-floating ø300 mm petal disc; rem belakang ø220 mm petal disc."
+    "HITAM",
+    "HITAM",
+    "HIJAU",
+    "HIJAU",
+    "HIJAU"
+   ]
   },
   {
    "id": 395,
    "nama": "KLX150S LX150L-C370",
    "kode": "LX150L-C370",
    "harga": 37100000,
+   "foto": "klx150s.webp",
+   "foto2": null,
+   "kategori": "Trail",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum: 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum: 11,3 Nm {1.2 kgfm} / 6.500 rpm. Berat kosong: 115 kg. Kapasitas tangki: 6,9 litres. Tinggi tempat duduk: 830 mm. Rem depan: ø240 mm petal disc; rem belakang: ø190 mm petal disc.",
    "unit": 26,
    "warna": [
     "HIJAU",
-    "HITAM"
-   ],
-   "foto": "klx150s.webp",
-   "kategori": "Trail",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum 11,3 Nm {1.2 kgfm} / 6.500 rpm. Berat kosong 115 kg. Kapasitas tangki 6,9 litres. Tinggi tempat duduk 830 mm. Rem depan ø240 mm petal disc; rem belakang ø190 mm petal disc."
+    "HIJAU",
+    "HIJAU",
+    "HIJAU",
+    "HIJAU",
+    "HIJAU"
+   ]
   },
   {
    "id": 400,
    "nama": "KLX150SM SE LX150M-D370",
    "kode": "LX150M-D370",
    "harga": 43800000,
+   "foto": "klx150sm.webp",
+   "foto2": "klx150sm-2.webp",
+   "kategori": "Lainnya",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum: 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum: 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong: 119 kg. Kapasitas tangki: 6,9 litres. Tinggi tempat duduk: 840 mm. Rem depan: Semi-floating ø300 mm petal disc; rem belakang: ø220 mm petal disc.",
    "unit": 23,
    "warna": [
-    "ABU-ABU",
     "HIJAU",
-    "HITAM"
-   ],
-   "foto": "klx150sm.webp",
-   "kategori": "Lainnya",
-   "foto2": "klx150sm-2.webp",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong 119 kg. Kapasitas tangki 6,9 litres. Tinggi tempat duduk 840 mm. Rem depan Semi-floating ø300 mm petal disc; rem belakang ø220 mm petal disc."
+    "ABU-ABU",
+    "ABU-ABU",
+    "ABU-ABU",
+    "ABU-ABU",
+    "ABU-ABU"
+   ]
   },
   {
    "id": 447,
    "nama": "KLX150SM SE LX150M-F370",
    "kode": "LX150M-F370",
    "harga": 44600000,
+   "foto": "klx150sm.webp",
+   "foto2": "klx150sm-2.webp",
+   "kategori": "Lainnya",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum: 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum: 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong: 119 kg. Kapasitas tangki: 6,9 litres. Tinggi tempat duduk: 840 mm. Rem depan: Semi-floating ø300 mm petal disc; rem belakang: ø220 mm petal disc.",
    "unit": 14,
    "warna": [
-    "ABU-ABU",
-    "HIJAU",
+    "HITAM",
+    "HITAM",
+    "HITAM",
+    "HITAM",
+    "HITAM",
     "HITAM"
-   ],
-   "foto": "klx150sm.webp",
-   "kategori": "Lainnya",
-   "foto2": "klx150sm-2.webp",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong 119 kg. Kapasitas tangki 6,9 litres. Tinggi tempat duduk 840 mm. Rem depan Semi-floating ø300 mm petal disc; rem belakang ø220 mm petal disc."
+   ]
   },
   {
    "id": 397,
    "nama": "KLX150 SE+ LX150K-F370",
    "kode": "LX150K-F370",
    "harga": 44500000,
+   "foto": "klx150se.webp",
+   "foto2": "klx150se-2.webp",
+   "kategori": "Trail",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum: 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum: 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong: 118 kg. Kapasitas tangki: 6,9 litres. Tinggi tempat duduk: 865 mm. Rem depan: ø240 mm petal disc; rem belakang: ø190 mm petal disc.",
    "unit": 7,
    "warna": [
+    "HIJAU",
+    "HIJAU",
+    "HIJAU",
     "BIRU",
     "HIJAU",
-    "KUNING",
     "ORANGE"
-   ],
-   "foto": "klx150se.webp",
-   "kategori": "Trail",
-   "foto2": "klx150se-2.webp",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong 118 kg. Kapasitas tangki 6,9 litres. Tinggi tempat duduk 865 mm. Rem depan ø240 mm petal disc; rem belakang ø190 mm petal disc."
+   ]
   },
   {
    "id": 519,
    "nama": "KLE500 SE LE500D-A346",
    "kode": "LE500D-A346",
    "harga": 162300000,
+   "foto": "kle500.webp",
+   "foto2": null,
+   "kategori": "Adventure",
+   "deskripsi": "Mesin: Liquid-cooled, 4-stroke Parallel Twin, 451 cc. Tenaga maksimum: 38,3 kW {52 PS} / 10.000 rpm. Torsi maksimum: 42,6 Nm {4,3 kgfm} / 7.500 rpm. Berat kosong: 177 kg. Kapasitas tangki: 13 litres. Tinggi tempat duduk: 735 mm. Rem depan: ø310 mm disc; rem belakang: ø240 mm disc.",
    "unit": 5,
    "warna": [
+    "ABU-ABU",
+    "ABU-ABU",
+    "ABU-ABU",
+    "ABU-ABU",
     "ABU-ABU"
-   ],
-   "foto": "kle500.webp",
-   "kategori": "Adventure",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke Parallel Twin, 451 cc. Tenaga maksimum 38,3 kW {52 PS} / 10.000 rpm. Torsi maksimum 42,6 Nm {4,3 kgfm} / 7.500 rpm. Berat kosong 177 kg. Kapasitas tangki 13 litres. Tinggi tempat duduk 735 mm. Rem depan ø310 mm disc; rem belakang ø240 mm disc."
+   ]
   },
   {
    "id": 455,
    "nama": "KLX150 SE+ LX150K-H370",
    "kode": "LX150K-H370",
    "harga": 44500000,
+   "foto": "klx150se.webp",
+   "foto2": "klx150se-2.webp",
+   "kategori": "Trail",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum: 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum: 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong: 118 kg. Kapasitas tangki: 6,9 litres. Tinggi tempat duduk: 865 mm. Rem depan: ø240 mm petal disc; rem belakang: ø190 mm petal disc.",
    "unit": 5,
    "warna": [
     "ABU-ABU",
-    "ORANGE"
-   ],
-   "foto": "klx150se.webp",
-   "kategori": "Trail",
-   "foto2": "klx150se-2.webp",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong 118 kg. Kapasitas tangki 6,9 litres. Tinggi tempat duduk 865 mm. Rem depan ø240 mm petal disc; rem belakang ø190 mm petal disc."
-  },
-  {
-   "id": 513,
-   "nama": "W175 ABS BJ175H-A370",
-   "kode": "BJ175H-A370",
-   "harga": 41800000,
-   "unit": 4,
-   "warna": [
     "ABU-ABU",
-    "PUTIH"
-   ],
-   "foto": "w175.webp",
-   "kategori": "Retro",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 177 cc. Tenaga maksimum 9,6 kW {13 PS} / 7.500 rpm. Torsi maksimum 13,3 Nm {1,4 kgfm} / 6.000 rpm. Berat kosong 135 kg. Kapasitas tangki 12 liter. Tinggi tempat duduk 785 mm. Rem depan ø270 mm disc; rem belakang Drum, ø110 mm."
+    "ABU-ABU",
+    "ORANGE",
+    "ABU-ABU"
+   ]
   },
   {
    "id": 535,
    "nama": "KLX230R LX232P-C370",
    "kode": "LX232P-C370",
    "harga": 56000000,
-   "unit": 4,
-   "warna": [
-    "HIJAU"
-   ],
    "foto": "klx230r.webp",
+   "foto2": null,
    "kategori": "Off-Road",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 233 cc. Tenaga maksimum 13,8 kW {19 PS} / 8.000 rpm. Torsi maksimum 19,6 Nm {2,0 kgfm} / 6.400 rpm. Berat kosong 119 kg. Kapasitas tangki 7,6 liter. Tinggi tempat duduk 875 mm. Rem depan ø240 mm petal disc; rem belakang ø220 mm petal disc."
-  },
-  {
-   "id": 445,
-   "nama": "NINJA H2 ZXT02J-F304",
-   "kode": "ZXT02J-F304",
-   "harga": 911000000,
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 233 cc. Tenaga maksimum: 13,8 kW {19 PS} / 8.000 rpm. Torsi maksimum: 19,6 Nm {2,0 kgfm} / 6.400 rpm. Berat kosong: 119 kg. Kapasitas tangki: 7,6 liter. Tinggi tempat duduk: 875 mm. Rem depan: ø240 mm petal disc; rem belakang: ø220 mm petal disc.",
    "unit": 4,
    "warna": [
-    "ABU-ABU"
-   ],
-   "foto": "ninjah2.webp",
-   "kategori": "Hypersport",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke In-Line Four, 998 cc. Tenaga maksimum 178,5 kW {243 PS} / 11.500 rpm with Ram Air. Torsi maksimum 141,7 Nm {14,4 kgfm} / 11.000 rpm. Berat kosong 218 kg. Kapasitas tangki 17 liter. Tinggi tempat duduk 825 mm. Rem depan Dual semi-floating ø330 mm Brembo discs; rem belakang Single ø250 mm disc."
+    "HIJAU",
+    "HIJAU",
+    "HIJAU",
+    "HIJAU"
+   ]
   },
   {
    "id": 460,
    "nama": "KX85 KX085D-B370",
    "kode": "KX085D-B370",
    "harga": 74800000,
+   "foto": "kx85.webp",
+   "foto2": null,
+   "kategori": "Off-Road",
+   "deskripsi": "Mesin: Pendingin cair, 2-Tak tunggal dengan KIPS, 84 cc. Berat kosong: 78.3 kg. Kapasitas tangki: 5,0 litres. Tinggi tempat duduk: 865 mm. Rem depan: ø240 mm petal disc; rem belakang: ø220 mm petal disc.",
    "unit": 4,
    "warna": [
+    "HIJAU",
+    "HIJAU",
+    "HIJAU",
     "HIJAU"
-   ],
-   "foto": "kx85.webp",
-   "kategori": "Off-Road",
-   "deskripsi": "Mesin Pendingin cair, 2-Tak tunggal dengan KIPS, 84 cc. Berat kosong 78.3 kg. Kapasitas tangki 5,0 litres. Tinggi tempat duduk 865 mm. Rem depan ø240 mm petal disc; rem belakang ø220 mm petal disc."
+   ]
   },
   {
-   "id": 495,
-   "nama": "MEGURO S1 BJ230B-B346",
-   "kode": "BJ230B-B346",
-   "harga": 83900000,
-   "unit": 3,
+   "id": 445,
+   "nama": "NINJA H2 ZXT02J-F304",
+   "kode": "ZXT02J-F304",
+   "harga": 911000000,
+   "foto": "ninjah2.webp",
+   "foto2": null,
+   "kategori": "Hypersport",
+   "deskripsi": "Mesin: Liquid-cooled, 4-stroke In-Line Four, 998 cc. Tenaga maksimum: 178,5 kW {243 PS} / 11.500 rpm with Ram Air. Torsi maksimum: 141,7 Nm {14,4 kgfm} / 11.000 rpm. Berat kosong: 218 kg. Kapasitas tangki: 17 liter. Tinggi tempat duduk: 825 mm. Rem depan: Dual semi-floating ø330 mm Brembo discs; rem belakang: Single ø250 mm disc.",
+   "unit": 4,
    "warna": [
+    "ABU-ABU",
+    "ABU-ABU",
+    "ABU-ABU",
     "ABU-ABU"
-   ],
-   "foto": "meguros1.webp",
+   ]
+  },
+  {
+   "id": 513,
+   "nama": "W175 ABS BJ175H-A370",
+   "kode": "BJ175H-A370",
+   "harga": 41800000,
+   "foto": "w175.webp",
+   "foto2": null,
    "kategori": "Retro",
-   "foto2": "meguros1-2.webp",
-   "deskripsi": "Mesin Air-cooled, 4-stroke single, 233 cc. Tenaga maksimum 12,9 kW {18 PS} / 7.000 rpm. Torsi maksimum 18,6 Nm {1,9 kgfm} / 5.800 rpm. Berat kosong 143 kg. Kapasitas tangki 12 Liter. Tinggi tempat duduk 745 mm. Rem depan ø265 mm disc; rem belakang ø220 mm disc."
-  },
-  {
-   "id": 510,
-   "nama": "Z900 SE ZR900T-C346",
-   "kode": "ZR900T-C346",
-   "harga": 259600000,
-   "unit": 3,
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 177 cc. Tenaga maksimum: 9,6 kW {13 PS} / 7.500 rpm. Torsi maksimum: 13,3 Nm {1,4 kgfm} / 6.000 rpm. Berat kosong: 135 kg. Kapasitas tangki: 12 liter. Tinggi tempat duduk: 785 mm. Rem depan: ø270 mm disc; rem belakang: Drum, ø110 mm.",
+   "unit": 4,
    "warna": [
+    "PUTIH",
+    "PUTIH",
+    "ABU-ABU",
     "ABU-ABU"
-   ],
-   "foto": "z900.webp",
-   "kategori": "Naked",
-   "foto2": "z900-2.webp",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke In-Line Four, 948 cc. Tenaga maksimum 92,2 kW {125 PS} / 9.500 rpm. Torsi maksimum 98,6 Nm {10,1 kgfm} / 7.700 rpm. Berat kosong 213 kg. Kapasitas tangki 17 Litres. Tinggi tempat duduk 810 mm. Rem depan Dual semi-floating ø300 mm discs; rem belakang ø250 mm disc."
+   ]
   },
   {
    "id": 539,
    "nama": "KX65 KX065C-H401",
    "kode": "KX065C-H401",
    "harga": 66400000,
+   "foto": "kx65.webp",
+   "foto2": null,
+   "kategori": "Off-Road",
+   "deskripsi": "Mesin: Liquid-cooled, 2-stroke Single, 64 cc. Berat kosong: 60 kg. Kapasitas tangki: 3,8 liter. Tinggi tempat duduk: 760 mm. Rem depan: ø180 mm disc; rem belakang: ø180 mm disc.",
    "unit": 3,
    "warna": [
+    "HIJAU",
+    "HIJAU",
     "HIJAU"
-   ],
-   "foto": "kx65.webp",
-   "kategori": "Off-Road",
-   "deskripsi": "Mesin Liquid-cooled, 2-stroke Single, 64 cc. Berat kosong 60 kg. Kapasitas tangki 3,8 liter. Tinggi tempat duduk 760 mm. Rem depan ø180 mm disc; rem belakang ø180 mm disc."
+   ]
   },
   {
-   "id": 525,
-   "nama": "KFX90 SF090B-D2G1",
-   "kode": "SF090B-D2G1",
-   "harga": 58900000,
-   "unit": 2,
+   "id": 495,
+   "nama": "MEGURO S1 BJ230B-B346",
+   "kode": "BJ230B-B346",
+   "harga": 83900000,
+   "foto": "meguros1.webp",
+   "foto2": "meguros1-2.webp",
+   "kategori": "Retro",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke single, 233 cc. Tenaga maksimum: 12,9 kW {18 PS} / 7.000 rpm. Torsi maksimum: 18,6 Nm {1,9 kgfm} / 5.800 rpm. Berat kosong: 143 kg. Kapasitas tangki: 12 Liter. Tinggi tempat duduk: 745 mm. Rem depan: ø265 mm disc; rem belakang: ø220 mm disc.",
+   "unit": 3,
    "warna": [
-    "HIJAU"
-   ],
-   "foto": "kfx90.webp",
-   "kategori": "ATV",
-   "deskripsi": "Mesin Pendingin cair, 2-Tak tunggal dengan KIPS, 84 cc. Berat kosong 78.3 kg. Kapasitas tangki 5,0 litres. Tinggi tempat duduk 865 mm. Rem depan ø240 mm petal disc; rem belakang ø220 mm petal disc."
+    "ABU-ABU",
+    "ABU-ABU",
+    "ABU-ABU"
+   ]
   },
   {
-   "id": 500,
-   "nama": "KX450 KX450M-D401",
-   "kode": "KX450M-D401",
-   "harga": 218100000,
-   "unit": 2,
+   "id": 510,
+   "nama": "Z900 SE ZR900T-C346",
+   "kode": "ZR900T-C346",
+   "harga": 259600000,
+   "foto": "z900.webp",
+   "foto2": "z900-2.webp",
+   "kategori": "Naked",
+   "deskripsi": "Mesin: Liquid-cooled, 4-stroke In-Line Four, 948 cc. Tenaga maksimum: 92,2 kW {125 PS} / 9.500 rpm. Torsi maksimum: 98,6 Nm {10,1 kgfm} / 7.700 rpm. Berat kosong: 213 kg. Kapasitas tangki: 17 Litres. Tinggi tempat duduk: 810 mm. Rem depan: Dual semi-floating ø300 mm discs; rem belakang: ø250 mm disc.",
+   "unit": 3,
    "warna": [
-    "HIJAU"
-   ],
-   "foto": "kx450.webp",
-   "kategori": "Off-Road",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke Single, 449 cc. Berat kosong 112,9 kg. Kapasitas tangki 6,2 litres. Tinggi tempat duduk 960 mm. Rem depan Semi-floating ø270 mm petal disc; rem belakang ø240 mm petal disc."
-  },
-  {
-   "id": 506,
-   "nama": "VERSYS-X 250 LE250F-B370",
-   "kode": "LE250F-B370",
-   "harga": 78300000,
-   "unit": 2,
-   "warna": [
-    "HIJAU"
-   ],
-   "foto": "versysx250.webp",
-   "kategori": "Adventure",
-   "foto2": "versysx250-2.webp",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke Parallel Twin, 249 cc. Tenaga maksimum 24,7 kW {34 PS} / 11.500 rpm. Torsi maksimum 21,7 Nm {2,2 kgfm} / 10.000 rpm. Berat kosong 177 kg. Kapasitas tangki 17 liter. Tinggi tempat duduk 815 mm. Rem depan ø290 mm petal disc; rem belakang ø220 mm petal disc."
-  },
-  {
-   "id": 507,
-   "nama": "NINJA ZX-6R (636) ABS ZX636J-D304",
-   "kode": "ZX636J-D304",
-   "harga": 324600000,
-   "unit": 2,
-   "warna": [
-    "HIJAU"
-   ],
-   "foto": "ninjax6r.webp",
-   "kategori": "Sport",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke In-Line Four, 636 cc. Tenaga maksimum 95,2 kW {129 PS} / 13.000 rpm (with Ram Air). Torsi maksimum 69,0 Nm {7,0 kgfm} / 11.000 rpm. Berat kosong 198 kg. Kapasitas tangki 17 liter. Tinggi tempat duduk 830 mm. Rem depan Dual semi-floating ø310 mm discs; rem belakang ø220 mm disc."
+    "ABU-ABU",
+    "ABU-ABU",
+    "ABU-ABU"
+   ]
   },
   {
    "id": 511,
    "nama": "BRUTE FORCE 450 VF450A-B361",
    "kode": "VF450A-B361",
    "harga": 158000000,
-   "unit": 2,
-   "warna": [
-    "BIRU"
-   ],
    "foto": "bruteforce450.webp",
+   "foto2": null,
    "kategori": "ATV",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke Single, 449 cc. Berat kosong 112,9 kg. Kapasitas tangki 6,2 litres. Tinggi tempat duduk 960 mm. Rem depan Semi-floating ø270 mm petal disc; rem belakang ø240 mm petal disc."
-  },
-  {
-   "id": 517,
-   "nama": "KLX150SM LX150M-G370",
-   "kode": "LX150M-G370",
-   "harga": 42200000,
+   "deskripsi": "",
    "unit": 2,
    "warna": [
-    "ABU-ABU"
-   ],
-   "foto": "klx150sm.webp",
-   "kategori": "Lainnya",
-   "foto2": "klx150sm-2.webp",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong 119 kg. Kapasitas tangki 6,9 litres. Tinggi tempat duduk 840 mm. Rem depan Semi-floating ø300 mm petal disc; rem belakang ø220 mm petal disc."
+    "BIRU",
+    "BIRU"
+   ]
   },
   {
-   "id": 497,
-   "nama": "VULCAN S SE EN650D-S346",
-   "kode": "EN650D-S346",
-   "harga": 234500000,
+   "id": 525,
+   "nama": "KFX90 SF090B-D2G1",
+   "kode": "SF090B-D2G1",
+   "harga": 58900000,
+   "foto": "kfx90.webp",
+   "foto2": null,
+   "kategori": "ATV",
+   "deskripsi": "Mesin: Pendingin cair, 2-Tak tunggal dengan KIPS, 84 cc. Berat kosong: 78.3 kg. Kapasitas tangki: 5,0 litres. Tinggi tempat duduk: 865 mm. Rem depan: ø240 mm petal disc; rem belakang: ø220 mm petal disc.",
    "unit": 2,
    "warna": [
-    "HITAM"
-   ],
-   "foto": "vulcans.webp",
-   "kategori": "Cruiser",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke Parallel Twin, 649 cc. Tenaga maksimum 45,0 kW {61 PS} / 7.500 rpm. Torsi maksimum 63,0 Nm {6,4 kgfm} / 6.600 rpm. Berat kosong 228 kg. Kapasitas tangki 14 liter. Tinggi tempat duduk 705 mm. Rem depan ø300 mm disc; rem belakang ø250 mm disc."
-  },
-  {
-   "id": 449,
-   "nama": "KLX110RL LX110D-B370",
-   "kode": "LX110D-B370",
-   "harga": 32100000,
-   "unit": 2,
-   "warna": [
+    "HIJAU",
     "HIJAU"
-   ],
-   "foto": "klx110r.webp",
-   "kategori": "Trail",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 112 cc. Tenaga maksimum 5,4 kW {7,3 PS} / 7.500 rpm. Torsi maksimum 8,0 Nm {0,82 kgfm} / 4.000 rpm. Berat kosong 76 kg. Kapasitas tangki 3,6 litres. Tinggi tempat duduk 730 mm. Rem depan Drum (ø90 mm); rem belakang Drum (ø110 mm)."
-  },
-  {
-   "id": 446,
-   "nama": "KLX150S LX150L-E370",
-   "kode": "LX150L-E370",
-   "harga": 37100000,
-   "unit": 2,
-   "warna": [
-    "ABU-ABU"
-   ],
-   "foto": "klx150s.webp",
-   "kategori": "Trail",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum 11,3 Nm {1.2 kgfm} / 6.500 rpm. Berat kosong 115 kg. Kapasitas tangki 6,9 litres. Tinggi tempat duduk 830 mm. Rem depan ø240 mm petal disc; rem belakang ø190 mm petal disc."
-  },
-  {
-   "id": 419,
-   "nama": "W175 TR SE BJ175C-G370",
-   "kode": "BJ175C-G370",
-   "harga": 38100000,
-   "unit": 2,
-   "warna": [
-    "HIJAU"
-   ],
-   "foto": "w175.webp",
-   "kategori": "Retro",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 177 cc. Tenaga maksimum 9,6 kW {13 PS} / 7.500 rpm. Torsi maksimum 13,3 Nm {1,4 kgfm} / 6.000 rpm. Berat kosong 135 kg. Kapasitas tangki 12 liter. Tinggi tempat duduk 785 mm. Rem depan ø270 mm disc; rem belakang Drum, ø110 mm."
+   ]
   },
   {
    "id": 536,
    "nama": "KLX110R LX110C-C370",
    "kode": "LX110C-C370",
    "harga": 31700000,
+   "foto": "klx110r.webp",
+   "foto2": null,
+   "kategori": "Trail",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 112 cc. Tenaga maksimum: 5,4 kW {7,3 PS} / 7.500 rpm. Torsi maksimum: 8,0 Nm {0,82 kgfm} / 4.000 rpm. Berat kosong: 76 kg. Kapasitas tangki: 3,6 litres. Tinggi tempat duduk: 730 mm. Rem depan: Drum (ø90 mm); rem belakang: Drum (ø110 mm).",
    "unit": 2,
    "warna": [
+    "HIJAU",
     "HIJAU"
-   ],
-   "foto": "klx110r.webp",
-   "kategori": "Trail",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 112 cc. Tenaga maksimum 5,4 kW {7,3 PS} / 7.500 rpm. Torsi maksimum 8,0 Nm {0,82 kgfm} / 4.000 rpm. Berat kosong 76 kg. Kapasitas tangki 3,6 litres. Tinggi tempat duduk 730 mm. Rem depan Drum (ø90 mm); rem belakang Drum (ø110 mm)."
+   ]
   },
   {
-   "id": 532,
-   "nama": "KLX250S LX250S-X370",
-   "kode": "LX250S-X370",
-   "harga": 83300000,
-   "unit": 1,
-   "warna": [
-    "HIJAU"
-   ],
-   "foto": "klx250s.webp",
-   "kategori": "Trail",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke Single, 249 cc. Tenaga maksimum 16,0 kW {22 PS} / 7.500 rpm. Torsi maksimum 21,0 Nm {2,1 kgfm} / 7.000 rpm. Berat kosong 137 kg. Kapasitas tangki 7,7 liter. Tinggi tempat duduk 890 mm. Rem depan ø250 mm petal disc; rem belakang ø240 mm petal disc."
-  },
-  {
-   "id": 533,
-   "nama": "KLX150 LX150K-N370",
-   "kode": "LX150K-N370",
-   "harga": 41800000,
-   "unit": 1,
-   "warna": [
-    "HIJAU"
-   ],
-   "foto": "klx150.webp",
-   "kategori": "Trail",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong 118 kg. Kapasitas tangki 6,9 litres. Tinggi tempat duduk 865 mm. Rem depan ø240 mm petal disc; rem belakang ø190 mm petal disc."
-  },
-  {
-   "id": 534,
-   "nama": "KX112 KX112B-B370",
-   "kode": "KX112B-B370",
-   "harga": 78000000,
-   "unit": 1,
-   "warna": [
-    "HIJAU"
-   ],
-   "foto": "kx112.webp",
-   "kategori": "Off-Road",
-   "deskripsi": "Mesin 52.5 x 51,6 mm, 112 cc. Tenaga maksimum Pendingin cair, 2-Tak tunggal dengan KIPS. Torsi maksimum 112 cc. Berat kosong 78,5 kg. Kapasitas tangki 5,0 litres. Tinggi tempat duduk 865 mm. Rem depan ø240 mm petal disc; rem belakang ø220 mm petal disc."
-  },
-  {
-   "id": 537,
-   "nama": "KLX110RL LX110D-D370",
-   "kode": "LX110D-D370",
+   "id": 449,
+   "nama": "KLX110RL LX110D-B370",
+   "kode": "LX110D-B370",
    "harga": 32100000,
-   "unit": 1,
-   "warna": [
-    "HIJAU"
-   ],
    "foto": "klx110r.webp",
+   "foto2": null,
    "kategori": "Trail",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 112 cc. Tenaga maksimum 5,4 kW {7,3 PS} / 7.500 rpm. Torsi maksimum 8,0 Nm {0,82 kgfm} / 4.000 rpm. Berat kosong 76 kg. Kapasitas tangki 3,6 litres. Tinggi tempat duduk 730 mm. Rem depan Drum (ø90 mm); rem belakang Drum (ø110 mm)."
-  },
-  {
-   "id": 518,
-   "nama": "KLE500 LE500C-A346",
-   "kode": "LE500C-A346",
-   "harga": 155300000,
-   "unit": 1,
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 112 cc. Tenaga maksimum: 5,4 kW {7,3 PS} / 7.500 rpm. Torsi maksimum: 8,0 Nm {0,82 kgfm} / 4.000 rpm. Berat kosong: 76 kg. Kapasitas tangki: 3,6 litres. Tinggi tempat duduk: 730 mm. Rem depan: Drum (ø90 mm); rem belakang: Drum (ø110 mm).",
+   "unit": 2,
    "warna": [
-    "ABU-ABU"
-   ],
-   "foto": "kle500.webp",
-   "kategori": "Adventure",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke Parallel Twin, 451 cc. Tenaga maksimum 38,3 kW {52 PS} / 10.000 rpm. Torsi maksimum 42,6 Nm {4,3 kgfm} / 7.500 rpm. Berat kosong 177 kg. Kapasitas tangki 13 litres. Tinggi tempat duduk 735 mm. Rem depan ø310 mm disc; rem belakang ø240 mm disc."
-  },
-  {
-   "id": 538,
-   "nama": "NINJA ZX-25R ABS ZX250K-K370",
-   "kode": "ZX250K-K370",
-   "harga": 135100000,
-   "unit": 1,
-   "warna": [
-    "ABU-ABU"
-   ],
-   "foto": "ninjax25r.webp",
-   "kategori": "Sport",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke In-Line Four, 249,8 cc. Tenaga maksimum 35,2 kW {47 PS} / 15.500 rpm (with Ram Air). Torsi maksimum 22,0 Nm {2,2 kgfm} / 12.500 rpm. Berat kosong 180 kg. Kapasitas tangki 15 litres. Tinggi tempat duduk 785 mm. Rem depan Semi-floating ø310 mm disc; rem belakang ø220 mm disc."
-  },
-  {
-   "id": 498,
-   "nama": "KLX150 SE LX150K-M370",
-   "kode": "LX150K-M370",
-   "harga": 42300000,
-   "unit": 1,
-   "warna": [
+    "HIJAU",
     "HIJAU"
-   ],
-   "foto": "klx150se.webp",
-   "kategori": "Trail",
-   "foto2": "klx150se-2.webp",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong 118 kg. Kapasitas tangki 6,9 litres. Tinggi tempat duduk 865 mm. Rem depan ø240 mm petal disc; rem belakang ø190 mm petal disc."
+   ]
   },
   {
-   "id": 512,
-   "nama": "KLX230 DF LX232Y-A370",
-   "kode": "LX232Y-A370",
-   "harga": 69900000,
-   "unit": 1,
+   "id": 446,
+   "nama": "KLX150S LX150L-E370",
+   "kode": "LX150L-E370",
+   "harga": 37100000,
+   "foto": "klx150s.webp",
+   "foto2": null,
+   "kategori": "Trail",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum: 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum: 11,3 Nm {1.2 kgfm} / 6.500 rpm. Berat kosong: 115 kg. Kapasitas tangki: 6,9 litres. Tinggi tempat duduk: 830 mm. Rem depan: ø240 mm petal disc; rem belakang: ø190 mm petal disc.",
+   "unit": 2,
    "warna": [
+    "ABU-ABU",
     "ABU-ABU"
-   ],
-   "foto": "klx230df.webp",
+   ]
+  },
+  {
+   "id": 517,
+   "nama": "KLX150SM LX150M-G370",
+   "kode": "LX150M-G370",
+   "harga": 42200000,
+   "foto": "klx150sm.webp",
+   "foto2": "klx150sm-2.webp",
+   "kategori": "Lainnya",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum: 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum: 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong: 119 kg. Kapasitas tangki: 6,9 litres. Tinggi tempat duduk: 840 mm. Rem depan: Semi-floating ø300 mm petal disc; rem belakang: ø220 mm petal disc.",
+   "unit": 2,
+   "warna": [
+    "ABU-ABU",
+    "ABU-ABU"
+   ]
+  },
+  {
+   "id": 500,
+   "nama": "KX450 KX450M-D401",
+   "kode": "KX450M-D401",
+   "harga": 218100000,
+   "foto": "kx450.webp",
+   "foto2": null,
    "kategori": "Off-Road",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 233 cc. Tenaga maksimum 13,2 kW {18 PS} / 8.000 rpm. Torsi maksimum 18,0 Nm {1,8 kgfm} / 6.400 rpm. Berat kosong 136 kg. Kapasitas tangki 7,6 liter. Tinggi tempat duduk 845 mm. Rem depan ø265 mm petal disc; rem belakang ø220 mm petal disc."
+   "deskripsi": "Mesin: Liquid-cooled, 4-stroke Single, 449 cc. Berat kosong: 112,9 kg. Kapasitas tangki: 6,2 litres. Tinggi tempat duduk: 960 mm. Rem depan: Semi-floating ø270 mm petal disc; rem belakang: ø240 mm petal disc.",
+   "unit": 2,
+   "warna": [
+    "HIJAU",
+    "HIJAU"
+   ]
+  },
+  {
+   "id": 507,
+   "nama": "NINJA ZX-6R (636) ABS ZX636J-D304",
+   "kode": "ZX636J-D304",
+   "harga": 324600000,
+   "foto": "ninjax6r.webp",
+   "foto2": null,
+   "kategori": "Sport",
+   "deskripsi": "Mesin: Liquid-cooled, 4-stroke In-Line Four, 636 cc. Tenaga maksimum: 95,2 kW {129 PS} / 13.000 rpm (with Ram Air). Torsi maksimum: 69,0 Nm {7,0 kgfm} / 11.000 rpm. Berat kosong: 198 kg. Kapasitas tangki: 17 liter. Tinggi tempat duduk: 830 mm. Rem depan: Dual semi-floating ø310 mm discs; rem belakang: ø220 mm disc.",
+   "unit": 2,
+   "warna": [
+    "HIJAU",
+    "HIJAU"
+   ]
+  },
+  {
+   "id": 506,
+   "nama": "VERSYS-X 250 LE250F-B370",
+   "kode": "LE250F-B370",
+   "harga": 78300000,
+   "foto": "versysx250.webp",
+   "foto2": "versysx250-2.webp",
+   "kategori": "Adventure",
+   "deskripsi": "Mesin: Liquid-cooled, 4-stroke Parallel Twin, 249 cc. Tenaga maksimum: 24,7 kW {34 PS} / 11.500 rpm. Torsi maksimum: 21,7 Nm {2,2 kgfm} / 10.000 rpm. Berat kosong: 177 kg. Kapasitas tangki: 17 liter. Tinggi tempat duduk: 815 mm. Rem depan: ø290 mm petal disc; rem belakang: ø220 mm petal disc.",
+   "unit": 2,
+   "warna": [
+    "HIJAU",
+    "HIJAU"
+   ]
+  },
+  {
+   "id": 497,
+   "nama": "VULCAN S SE EN650D-S346",
+   "kode": "EN650D-S346",
+   "harga": 234500000,
+   "foto": "vulcans.webp",
+   "foto2": null,
+   "kategori": "Cruiser",
+   "deskripsi": "Mesin: Liquid-cooled, 4-stroke Parallel Twin, 649 cc. Tenaga maksimum: 45,0 kW {61 PS} / 7.500 rpm. Torsi maksimum: 63,0 Nm {6,4 kgfm} / 6.600 rpm. Berat kosong: 228 kg. Kapasitas tangki: 14 liter. Tinggi tempat duduk: 705 mm. Rem depan: ø300 mm disc; rem belakang: ø250 mm disc.",
+   "unit": 2,
+   "warna": [
+    "HITAM",
+    "HITAM"
+   ]
+  },
+  {
+   "id": 419,
+   "nama": "W175 TR SE BJ175C-G370",
+   "kode": "BJ175C-G370",
+   "harga": 38100000,
+   "foto": "w175.webp",
+   "foto2": null,
+   "kategori": "Retro",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 177 cc. Tenaga maksimum: 9,6 kW {13 PS} / 7.500 rpm. Torsi maksimum: 13,3 Nm {1,4 kgfm} / 6.000 rpm. Berat kosong: 135 kg. Kapasitas tangki: 12 liter. Tinggi tempat duduk: 785 mm. Rem depan: ø270 mm disc; rem belakang: Drum, ø110 mm.",
+   "unit": 2,
+   "warna": [
+    "HIJAU",
+    "HIJAU"
+   ]
   },
   {
    "id": 505,
    "nama": "BRUTE FORCE 300 VF300C-B2G1",
    "kode": "VF300C-B2G1",
    "harga": 110000000,
+   "foto": "bruteforce300.webp",
+   "foto2": null,
+   "kategori": "ATV",
+   "deskripsi": "",
    "unit": 1,
    "warna": [
     "BIRU"
-   ],
-   "foto": "bruteforce300.webp",
-   "kategori": "ATV",
-   "deskripsi": ""
-  },
-  {
-   "id": 501,
-   "nama": "KX250 KX252E-B401",
-   "kode": "KX252E-B401",
-   "harga": 159500000,
-   "unit": 1,
-   "warna": [
-    "HIJAU"
-   ],
-   "foto": "kx250.webp",
-   "kategori": "Off-Road",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke Single, 249 cc. Berat kosong 109,5 kg. Kapasitas tangki 6,2 litres. Tinggi tempat duduk 955 mm. Rem depan Semi-floating ø270 mm petal disc; rem belakang ø240 mm petal disc."
-  },
-  {
-   "id": 234,
-   "nama": "KLX230 LX230B-A370",
-   "kode": "LX230B-A370",
-   "harga": 44300000,
-   "unit": 1,
-   "warna": [
-    "HIJAU"
-   ],
-   "foto": "klx230.webp",
-   "kategori": "Trail",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 233 cc. Tenaga maksimum 13,2 kW {18 PS} / 8.000 rpm. Torsi maksimum 18,0 Nm {1,8 kgfm} / 6.400 rpm. Berat kosong 134 kg. Kapasitas tangki 7,6 liter. Tinggi tempat duduk 860 mm. Rem depan Non-ABS: ø240 mm; rem belakang ø220 mm petal disc."
-  },
-  {
-   "id": 494,
-   "nama": "W230 BJ230A-B346",
-   "kode": "BJ230A-B346",
-   "harga": 77300000,
-   "unit": 1,
-   "warna": [
-    "HIJAU"
-   ],
-   "foto": "w230.webp",
-   "kategori": "Retro",
-   "deskripsi": "Mesin Air-cooled, 4-stroke single, 233 cc. Tenaga maksimum 12,9 kW {18 PS} / 7.000 rpm. Torsi maksimum 18,6 Nm {1,9 kgfm} / 5.800 rpm. Berat kosong 143 kg. Kapasitas tangki 12 Liter. Tinggi tempat duduk 745 mm. Rem depan ø265 mm disc; rem belakang ø220 mm disc."
-  },
-  {
-   "id": 491,
-   "nama": "KLX230 SHERPA LX232S-B370",
-   "kode": "LX232S-B370",
-   "harga": 63600000,
-   "unit": 1,
-   "warna": [
-    "PUTIH"
-   ],
-   "foto": "klx230sherpa.webp",
-   "kategori": "Trail",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 233 cc. Tenaga maksimum 13,2 kW {18 PS} / 8.000 rpm. Torsi maksimum 18,0 Nm {1,8 kgfm} / 6.400 rpm. Berat kosong 134 kg. Kapasitas tangki 7,6 liter. Tinggi tempat duduk 825 mm. Rem depan ø240 mm; rem belakang ø220 mm petal disc."
-  },
-  {
-   "id": 480,
-   "nama": "NINJA ZX-10R ZXT02L-G304",
-   "kode": "ZXT02L-G304",
-   "harga": 591500000,
-   "unit": 1,
-   "warna": [
-    "HIJAU"
-   ],
-   "foto": "ninjax10r.webp",
-   "kategori": "Superbike",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke In-Line Four, 998 cc. Tenaga maksimum 151,2 kW {206 PS} / 13.000 rpm with Ram Air. Torsi maksimum 110,0 Nm {11,2 kgfm} / 11.400 rpm. Berat kosong 209 kg. Kapasitas tangki 17 litres. Tinggi tempat duduk 825 mm. Rem depan Dual semi-floating ø330 mm Brembo discs; rem belakang ø220 mm disc."
-  },
-  {
-   "id": 476,
-   "nama": "W175 CAFE BJ175B-G370",
-   "kode": "BJ175B-G370",
-   "harga": 41000000,
-   "unit": 1,
-   "warna": [
-    "ABU-ABU"
-   ],
-   "foto": "w175.webp",
-   "kategori": "Retro",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 177 cc. Tenaga maksimum 9,6 kW {13 PS} / 7.500 rpm. Torsi maksimum 13,3 Nm {1,4 kgfm} / 6.000 rpm. Berat kosong 135 kg. Kapasitas tangki 12 liter. Tinggi tempat duduk 785 mm. Rem depan ø270 mm disc; rem belakang Drum, ø110 mm."
-  },
-  {
-   "id": 466,
-   "nama": "W175 SE BLACK STYLE BJ175A-T370",
-   "kode": "BJ175A-T370",
-   "harga": 40500000,
-   "unit": 1,
-   "warna": [
-    "HITAM"
-   ],
-   "foto": "w175.webp",
-   "kategori": "Retro",
-   "deskripsi": "Mesin Air-cooled, 4-stroke Single, 177 cc. Tenaga maksimum 9,6 kW {13 PS} / 7.500 rpm. Torsi maksimum 13,3 Nm {1,4 kgfm} / 6.000 rpm. Berat kosong 135 kg. Kapasitas tangki 12 liter. Tinggi tempat duduk 785 mm. Rem depan ø270 mm disc; rem belakang Drum, ø110 mm."
+   ]
   },
   {
    "id": 432,
    "nama": "ELIMINATOR EL450A-A346",
    "kode": "EL450A-A346",
    "harga": 174800000,
+   "foto": "eliminator450.webp",
+   "foto2": null,
+   "kategori": "Cruiser",
+   "deskripsi": "Mesin: Liquid-cooled, 4-stroke Parallel Twin, 451 cc. Tenaga maksimum: 38,3 kW {52 PS} / 10.000 rpm. Torsi maksimum: 42,6 Nm {4,3 kgfm} / 7.500 rpm. Berat kosong: 177 kg. Kapasitas tangki: 13 litres. Tinggi tempat duduk: 735 mm. Rem depan: ø310 mm disc; rem belakang: ø240 mm disc.",
    "unit": 1,
    "warna": [
     "PUTIH"
-   ],
-   "foto": "eliminator450.webp",
-   "kategori": "Cruiser",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke Parallel Twin, 451 cc. Tenaga maksimum 38,3 kW {52 PS} / 10.000 rpm. Torsi maksimum 42,6 Nm {4,3 kgfm} / 7.500 rpm. Berat kosong 177 kg. Kapasitas tangki 13 litres. Tinggi tempat duduk 735 mm. Rem depan ø310 mm disc; rem belakang ø240 mm disc."
+   ]
   },
   {
-   "id": 412,
-   "nama": "NINJA ZX-25R ABS ZX250K-C370",
-   "kode": "ZX250K-C370",
-   "harga": 135100000,
+   "id": 518,
+   "nama": "KLE500 LE500C-A346",
+   "kode": "LE500C-A346",
+   "harga": 155300000,
+   "foto": "kle500.webp",
+   "foto2": null,
+   "kategori": "Adventure",
+   "deskripsi": "Mesin: Liquid-cooled, 4-stroke Parallel Twin, 451 cc. Tenaga maksimum: 38,3 kW {52 PS} / 10.000 rpm. Torsi maksimum: 42,6 Nm {4,3 kgfm} / 7.500 rpm. Berat kosong: 177 kg. Kapasitas tangki: 13 litres. Tinggi tempat duduk: 735 mm. Rem depan: ø310 mm disc; rem belakang: ø240 mm disc.",
    "unit": 1,
    "warna": [
-    "BIRU"
-   ],
-   "foto": "ninjax25r.webp",
-   "kategori": "Sport",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke In-Line Four, 249,8 cc. Tenaga maksimum 35,2 kW {47 PS} / 15.500 rpm (with Ram Air). Torsi maksimum 22,0 Nm {2,2 kgfm} / 12.500 rpm. Berat kosong 180 kg. Kapasitas tangki 15 litres. Tinggi tempat duduk 785 mm. Rem depan Semi-floating ø310 mm disc; rem belakang ø220 mm disc."
+    "ABU-ABU"
+   ]
   },
   {
-   "id": 300,
-   "nama": "NINJA RR SE KR150P-G370",
-   "kode": "KR150P-G370",
-   "harga": 39350000,
+   "id": 537,
+   "nama": "KLX110RL LX110D-D370",
+   "kode": "LX110D-D370",
+   "harga": 32100000,
+   "foto": "klx110r.webp",
+   "foto2": null,
+   "kategori": "Trail",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 112 cc. Tenaga maksimum: 5,4 kW {7,3 PS} / 7.500 rpm. Torsi maksimum: 8,0 Nm {0,82 kgfm} / 4.000 rpm. Berat kosong: 76 kg. Kapasitas tangki: 3,6 litres. Tinggi tempat duduk: 730 mm. Rem depan: Drum (ø90 mm); rem belakang: Drum (ø110 mm).",
    "unit": 1,
    "warna": [
-    "ORANGE SE"
-   ],
-   "foto": "ninja250.webp",
-   "kategori": "Sport",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke Parallel Twin, 249 cc. Tenaga maksimum 26,5 kW {36 PS} / 12.500 rpm. Torsi maksimum 22,0 Nm {2,2 kgfm} / 10.500 rpm. Berat kosong 163 kg. Kapasitas tangki 14 liter. Tinggi tempat duduk 795 mm. Rem depan Semi-floating ø310 mm petal disc; rem belakang ø220 mm petal disc."
+    "HIJAU"
+   ]
+  },
+  {
+   "id": 533,
+   "nama": "KLX150 LX150K-N370",
+   "kode": "LX150K-N370",
+   "harga": 41800000,
+   "foto": "klx150.webp",
+   "foto2": null,
+   "kategori": "Trail",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum: 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum: 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong: 118 kg. Kapasitas tangki: 6,9 litres. Tinggi tempat duduk: 865 mm. Rem depan: ø240 mm petal disc; rem belakang: ø190 mm petal disc.",
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ]
+  },
+  {
+   "id": 498,
+   "nama": "KLX150 SE LX150K-M370",
+   "kode": "LX150K-M370",
+   "harga": 42300000,
+   "foto": "klx150se.webp",
+   "foto2": "klx150se-2.webp",
+   "kategori": "Trail",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 144 cc. Tenaga maksimum: 8,6 kW {12 PS} / 8.000 rpm. Torsi maksimum: 11,3 Nm {1,2 kgfm} / 6.500 rpm. Berat kosong: 118 kg. Kapasitas tangki: 6,9 litres. Tinggi tempat duduk: 865 mm. Rem depan: ø240 mm petal disc; rem belakang: ø190 mm petal disc.",
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ]
+  },
+  {
+   "id": 512,
+   "nama": "KLX230 DF LX232Y-A370",
+   "kode": "LX232Y-A370",
+   "harga": 69900000,
+   "foto": "klx230df.webp",
+   "foto2": null,
+   "kategori": "Off-Road",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 233 cc. Tenaga maksimum: 13,2 kW {18 PS} / 8.000 rpm. Torsi maksimum: 18,0 Nm {1,8 kgfm} / 6.400 rpm. Berat kosong: 136 kg. Kapasitas tangki: 7,6 liter. Tinggi tempat duduk: 845 mm. Rem depan: ø265 mm petal disc; rem belakang: ø220 mm petal disc.",
+   "unit": 1,
+   "warna": [
+    "ABU-ABU"
+   ]
+  },
+  {
+   "id": 234,
+   "nama": "KLX230 LX230B-A370",
+   "kode": "LX230B-A370",
+   "harga": 44300000,
+   "foto": "klx230.webp",
+   "foto2": null,
+   "kategori": "Trail",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 233 cc. Tenaga maksimum: 13,2 kW {18 PS} / 8.000 rpm. Torsi maksimum: 18,0 Nm {1,8 kgfm} / 6.400 rpm. Berat kosong: 134 kg. Kapasitas tangki: 7,6 liter. Tinggi tempat duduk: 860 mm. Rem depan: Non-ABS: ø240 mm; rem belakang: ø220 mm petal disc.",
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ]
+  },
+  {
+   "id": 491,
+   "nama": "KLX230 SHERPA LX232S-B370",
+   "kode": "LX232S-B370",
+   "harga": 63600000,
+   "foto": "klx230sherpa.webp",
+   "foto2": null,
+   "kategori": "Trail",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 233 cc. Tenaga maksimum: 13,2 kW {18 PS} / 8.000 rpm. Torsi maksimum: 18,0 Nm {1,8 kgfm} / 6.400 rpm. Berat kosong: 134 kg. Kapasitas tangki: 7,6 liter. Tinggi tempat duduk: 825 mm. Rem depan: ø240 mm; rem belakang: ø220 mm petal disc.",
+   "unit": 1,
+   "warna": [
+    "PUTIH"
+   ]
+  },
+  {
+   "id": 532,
+   "nama": "KLX250S LX250S-X370",
+   "kode": "LX250S-X370",
+   "harga": 83300000,
+   "foto": "klx250s.webp",
+   "foto2": null,
+   "kategori": "Trail",
+   "deskripsi": "Mesin: Liquid-cooled, 4-stroke Single, 249 cc. Tenaga maksimum: 16,0 kW {22 PS} / 7.500 rpm. Torsi maksimum: 21,0 Nm {2,1 kgfm} / 7.000 rpm. Berat kosong: 137 kg. Kapasitas tangki: 7,7 liter. Tinggi tempat duduk: 890 mm. Rem depan: ø250 mm petal disc; rem belakang: ø240 mm petal disc.",
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ]
+  },
+  {
+   "id": 534,
+   "nama": "KX112 KX112B-B370",
+   "kode": "KX112B-B370",
+   "harga": 78000000,
+   "foto": "kx112.webp",
+   "foto2": null,
+   "kategori": "Off-Road",
+   "deskripsi": "Mesin: 52.5 x 51,6 mm, 112 cc. Tenaga maksimum: Pendingin cair, 2-Tak tunggal dengan KIPS. Torsi maksimum: 112 cc. Berat kosong: 78,5 kg. Kapasitas tangki: 5,0 litres. Tinggi tempat duduk: 865 mm. Rem depan: ø240 mm petal disc; rem belakang: ø220 mm petal disc.",
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ]
+  },
+  {
+   "id": 501,
+   "nama": "KX250 KX252E-B401",
+   "kode": "KX252E-B401",
+   "harga": 159500000,
+   "foto": "kx250.webp",
+   "foto2": null,
+   "kategori": "Off-Road",
+   "deskripsi": "Mesin: Liquid-cooled, 4-stroke Single, 249 cc. Berat kosong: 109,5 kg. Kapasitas tangki: 6,2 litres. Tinggi tempat duduk: 955 mm. Rem depan: Semi-floating ø270 mm petal disc; rem belakang: ø240 mm petal disc.",
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ]
   },
   {
    "id": 299,
    "nama": "NINJA RR KR150P",
    "kode": "KR150P",
    "harga": 36500000,
+   "foto": "ninja250.webp",
+   "foto2": null,
+   "kategori": "Sport",
+   "deskripsi": "",
    "unit": 1,
    "warna": [
     "KUNING"
-   ],
+   ]
+  },
+  {
+   "id": 300,
+   "nama": "NINJA RR SE KR150P-G370",
+   "kode": "KR150P-G370",
+   "harga": 39350000,
    "foto": "ninja250.webp",
+   "foto2": null,
    "kategori": "Sport",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke Parallel Twin, 249 cc. Tenaga maksimum 26,5 kW {36 PS} / 12.500 rpm. Torsi maksimum 22,0 Nm {2,2 kgfm} / 10.500 rpm. Berat kosong 163 kg. Kapasitas tangki 14 liter. Tinggi tempat duduk 795 mm. Rem depan Semi-floating ø310 mm petal disc; rem belakang ø220 mm petal disc."
+   "deskripsi": "",
+   "unit": 1,
+   "warna": [
+    "ORANGE SE"
+   ]
+  },
+  {
+   "id": 480,
+   "nama": "NINJA ZX-10R ZXT02L-G304",
+   "kode": "ZXT02L-G304",
+   "harga": 591500000,
+   "foto": "ninjax10r.webp",
+   "foto2": null,
+   "kategori": "Superbike",
+   "deskripsi": "Mesin: Liquid-cooled, 4-stroke In-Line Four, 998 cc. Tenaga maksimum: 151,2 kW {206 PS} / 13.000 rpm with Ram Air. Torsi maksimum: 110,0 Nm {11,2 kgfm} / 11.400 rpm. Berat kosong: 209 kg. Kapasitas tangki: 17 litres. Tinggi tempat duduk: 825 mm. Rem depan: Dual semi-floating ø330 mm Brembo discs; rem belakang: ø220 mm disc.",
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ]
+  },
+  {
+   "id": 412,
+   "nama": "NINJA ZX-25R ABS ZX250K-C370",
+   "kode": "ZX250K-C370",
+   "harga": 135100000,
+   "foto": "ninjax25r.webp",
+   "foto2": null,
+   "kategori": "Sport",
+   "deskripsi": "Mesin: Liquid-cooled, 4-stroke In-Line Four, 249,8 cc. Tenaga maksimum: 35,2 kW {47 PS} / 15.500 rpm (with Ram Air). Torsi maksimum: 22,0 Nm {2,2 kgfm} / 12.500 rpm. Berat kosong: 180 kg. Kapasitas tangki: 15 litres. Tinggi tempat duduk: 785 mm. Rem depan: Semi-floating ø310 mm disc; rem belakang: ø220 mm disc.",
+   "unit": 1,
+   "warna": [
+    "BIRU"
+   ]
+  },
+  {
+   "id": 538,
+   "nama": "NINJA ZX-25R ABS ZX250K-K370",
+   "kode": "ZX250K-K370",
+   "harga": 135100000,
+   "foto": "ninjax25r.webp",
+   "foto2": null,
+   "kategori": "Sport",
+   "deskripsi": "Mesin: Liquid-cooled, 4-stroke In-Line Four, 249,8 cc. Tenaga maksimum: 35,2 kW {47 PS} / 15.500 rpm (with Ram Air). Torsi maksimum: 22,0 Nm {2,2 kgfm} / 12.500 rpm. Berat kosong: 180 kg. Kapasitas tangki: 15 litres. Tinggi tempat duduk: 785 mm. Rem depan: Semi-floating ø310 mm disc; rem belakang: ø220 mm disc.",
+   "unit": 1,
+   "warna": [
+    "ABU-ABU"
+   ]
   },
   {
    "id": 410,
    "nama": "NINJA ZX-25R ZX250J-B370",
    "kode": "ZX250J-B370",
    "harga": 115600000,
+   "foto": "ninjax25r.webp",
+   "foto2": null,
+   "kategori": "Sport",
+   "deskripsi": "Mesin: Liquid-cooled, 4-stroke In-Line Four, 249,8 cc. Tenaga maksimum: 35,2 kW {47 PS} / 15.500 rpm (with Ram Air). Torsi maksimum: 22,0 Nm {2,2 kgfm} / 12.500 rpm. Berat kosong: 180 kg. Kapasitas tangki: 15 litres. Tinggi tempat duduk: 785 mm. Rem depan: Semi-floating ø310 mm disc; rem belakang: ø220 mm disc.",
    "unit": 1,
    "warna": [
     "HITAM"
-   ],
-   "foto": "ninjax25r.webp",
-   "kategori": "Sport",
-   "deskripsi": "Mesin Liquid-cooled, 4-stroke In-Line Four, 249,8 cc. Tenaga maksimum 35,2 kW {47 PS} / 15.500 rpm (with Ram Air). Torsi maksimum 22,0 Nm {2,2 kgfm} / 12.500 rpm. Berat kosong 180 kg. Kapasitas tangki 15 litres. Tinggi tempat duduk 785 mm. Rem depan Semi-floating ø310 mm disc; rem belakang ø220 mm disc."
+   ]
+  },
+  {
+   "id": 476,
+   "nama": "W175 CAFE BJ175B-G370",
+   "kode": "BJ175B-G370",
+   "harga": 41000000,
+   "foto": "w175.webp",
+   "foto2": null,
+   "kategori": "Retro",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 177 cc. Tenaga maksimum: 9,6 kW {13 PS} / 7.500 rpm. Torsi maksimum: 13,3 Nm {1,4 kgfm} / 6.000 rpm. Berat kosong: 135 kg. Kapasitas tangki: 12 liter. Tinggi tempat duduk: 785 mm. Rem depan: ø270 mm disc; rem belakang: Drum, ø110 mm.",
+   "unit": 1,
+   "warna": [
+    "ABU-ABU"
+   ]
+  },
+  {
+   "id": 466,
+   "nama": "W175 SE BLACK STYLE BJ175A-T370",
+   "kode": "BJ175A-T370",
+   "harga": 40500000,
+   "foto": "w175.webp",
+   "foto2": null,
+   "kategori": "Retro",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke Single, 177 cc. Tenaga maksimum: 9,6 kW {13 PS} / 7.500 rpm. Torsi maksimum: 13,3 Nm {1,4 kgfm} / 6.000 rpm. Berat kosong: 135 kg. Kapasitas tangki: 12 liter. Tinggi tempat duduk: 785 mm. Rem depan: ø270 mm disc; rem belakang: Drum, ø110 mm.",
+   "unit": 1,
+   "warna": [
+    "HITAM"
+   ]
+  },
+  {
+   "id": 494,
+   "nama": "W230 BJ230A-B346",
+   "kode": "BJ230A-B346",
+   "harga": 77300000,
+   "foto": "w230.webp",
+   "foto2": null,
+   "kategori": "Retro",
+   "deskripsi": "Mesin: Air-cooled, 4-stroke single, 233 cc. Tenaga maksimum: 12,9 kW {18 PS} / 7.000 rpm. Torsi maksimum: 18,6 Nm {1,9 kgfm} / 5.800 rpm. Berat kosong: 143 kg. Kapasitas tangki: 12 Liter. Tinggi tempat duduk: 745 mm. Rem depan: ø265 mm disc; rem belakang: ø220 mm disc.",
+   "unit": 1,
+   "warna": [
+    "HIJAU"
+   ]
   }
  ]
 }

@@ -92,7 +92,10 @@ $sql = "
            pm.nama,
            pm.kode_motor      AS kode,
            pm.harga,
-           pm.deskripsi      AS deskripsi,
+           pm.deskripsi       AS deskripsi,
+           pm.foto            AS foto,
+           pm.foto2           AS foto2,
+           pm.kategori        AS kategori,
            COUNT(md.id)       AS unit
     FROM product_motor pm
     JOIN motor_detail md
@@ -100,7 +103,7 @@ $sql = "
      AND md.deleted_at IS NULL
      AND md.status_motor = 'TERSEDIA'
     WHERE pm.deleted_at IS NULL
-    GROUP BY pm.id, pm.nama, pm.kode_motor, pm.harga, pm.deskripsi
+    GROUP BY pm.id, pm.nama, pm.kode_motor, pm.harga, pm.deskripsi, pm.foto, pm.foto2, pm.kategori
     ORDER BY unit DESC, pm.nama ASC
 ";
 $sqlWarna = "
@@ -125,15 +128,8 @@ try {
         }
     }
 
-    // ---- Peta foto (slug → file). Jaga agar nama file aman (whitelist). ----
-    $fotoMap = [
-        'klx150se', 'klx150', 'klx150s', 'klx150sm', 'klx140', 'klx110r',
-        'klx230', 'klx230r', 'klx230sherpa', 'klx230df', 'klx250s',
-        'kle500', 'versysx250', 'ninjah2', 'ninjax10r', 'ninjax6r',
-        'ninjax25r', 'ninja250', 'z900', 'w175', 'w230', 'meguros1',
-        'kx85', 'kx65', 'kx112', 'kx250', 'kx450', 'bruteforce450',
-        'bruteforce300', 'kfx90', 'vulcans', 'eliminator450',
-    ];
+    // ---- Peta slug → kategori tetap ada di config (web-db.php) sebagai fallback. ----
+    // (Foto & kategori utama dibaca dari kolom DB product_motor.)
 
     function slugMotor(string $kode, string $nama): ?string
     {
@@ -181,21 +177,33 @@ try {
 
     $out = [];
     foreach ($rows as $r) {
-        $slug = slugMotor((string)$r['kode'], (string)$r['nama']);
-        if ($slug === null || !in_array($slug, $fotoMap, true)) {
-            continue; // model tanpa foto resmi tidak ditampilkan
+        // Sumber utama = kolom DB (dapat diedit via ERP / dashboard admin).
+        // Fallback slug hanya untuk data lama yang belum punya foto.
+        $foto = !empty($r['foto']) ? (string)$r['foto'] : null;
+        $slug = $foto !== null ? null : slugMotor((string)$r['kode'], (string)$r['nama']);
+        if ($foto === null && $slug !== null) {
+            $foto = $slug . '.webp';
         }
+        if ($foto === null) {
+            continue;
+        }
+        $kategori = !empty($r['kategori'])
+            ? (string)$r['kategori']
+            : ($slug !== null ? ($__cfg['kategori'][$slug] ?? 'Lainnya') : 'Lainnya');
+        $foto2 = !empty($r['foto2'])
+            ? (string)$r['foto2']
+            : ($slug !== null && is_file(__DIR__ . '/../assets/img/' . $slug . '-2.webp') ? $slug . '-2.webp' : null);
         $out[] = [
-            'id'       => (int)$r['id'],
-            'nama'     => $r['nama'],
-            'kode'     => $r['kode'],
-            'harga'    => (int)$r['harga'],
-            'unit'     => (int)$r['unit'],
-            'warna'    => $warnaByMotor[$r['id']] ?? [],
-            'foto'     => $slug . '.webp',
-            'deskripsi'=> $r['deskripsi'] ?? null,
-            'foto2'    => is_file(__DIR__ . '/../assets/img/' . $slug . '-2.webp') ? $slug . '-2.webp' : null,
-            'kategori' => $__cfg['kategori'][$slug] ?? 'Lainnya',
+            'id'        => (int)$r['id'],
+            'nama'      => $r['nama'],
+            'kode'      => $r['kode'],
+            'harga'     => (int)$r['harga'],
+            'unit'      => (int)$r['unit'],
+            'warna'     => $warnaByMotor[$r['id']] ?? [],
+            'foto'      => $foto,
+            'foto2'     => $foto2,
+            'deskripsi' => $r['deskripsi'] ?? null,
+            'kategori'  => $kategori,
         ];
     }
 
