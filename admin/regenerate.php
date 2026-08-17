@@ -77,14 +77,29 @@ function regenerate_site(): array {
         $warnaList = $warnaBy[$m['id']] ?? [];
         $harga = kwgr_rp($m['harga']);
         $hargaNum = (int)$m['harga'];
-        $descMeta = $nama . ' (' . $m['kode'] . ') tersedia ' . $m['unit'] . ' unit di dealer resmi Kawasaki Greentech, Riau. Harga ' . $harga . ' OTR*.';
-        $title = $nama . ' — Harga & Stok ' . $harga . ' | Kawasaki Greentech';
+        $descMeta = 'Harga ' . $nama . ' (' . $m['kode'] . ') OTR ' . $harga . ' — spesifikasi, simulasi kredit & stok ' . $m['unit'] . ' unit di dealer resmi Kawasaki Greentech Pekanbaru, Riau.';
+        $title = $nama . ' — Harga OTR, Spesifikasi & Kredit | Kawasaki Greentech Pekanbaru';
 
-        $foto2block = '';
-        foreach ([$m['foto2'], $m['foto3'], $m['foto4'], $m['foto5'], $m['foto6']] as $gf) {
-            if ($gf !== '') {
-                $foto2block .= '<img src="../assets/img/' . kwgr_esc($gf) . '?v=6" alt="Motor Kawasaki ' . kwgr_esc($nama) . ' tampak lain" loading="lazy" width="800" height="450">';
-            }
+        $galleryFotos = array_values(array_filter(
+            [$m['foto'], $m['foto2'], $m['foto3'], $m['foto4'], $m['foto5'], $m['foto6']],
+            fn($f) => $f !== ''
+        ));
+        $slidesHtml = '';
+        $dotsHtml = '';
+        $gi = 0;
+        foreach ($galleryFotos as $gf) {
+            $active = $gi === 0 ? ' is-active' : '';
+            $loading = $gi === 0 ? 'eager' : 'lazy';
+            $slidesHtml .= '<div class="carousel-slide' . $active . '"><img src="../assets/img/' . kwgr_esc($gf) . '?v=6" alt="Kawasaki ' . kwgr_esc($nama) . ' ' . kwgr_esc($m['kode']) . ' Pekanbaru — foto ' . ($gi + 1) . '" loading="' . $loading . '"></div>';
+            $dotsHtml .= '<button class="carousel-dot' . $active . '" data-i="' . $gi . '" aria-label="Foto ' . ($gi + 1) . '" type="button"></button>';
+            $gi++;
+        }
+        $hasCarousel = $gi > 1;
+        $carouselControls = '';
+        if ($hasCarousel) {
+            $carouselControls = '<button class="carousel-prev" aria-label="Foto sebelumnya" type="button">&#8249;</button>'
+                . '<button class="carousel-next" aria-label="Foto berikutnya" type="button">&#8250;</button>'
+                . '<div class="carousel-dots">' . $dotsHtml . '</div>';
         }
 
         $specsHtml = '';
@@ -146,6 +161,7 @@ function regenerate_site(): array {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{$title}</title>
 <meta name="description" content="{$descMeta}">
+<meta name="keywords" content="harga {$nama}, {$m['kode']}, dealer kawasaki pekanbaru, kredit {$nama}, kawasaki greentech riau">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="{$BASE}/motor/{$slug}.html">
 <link rel="icon" type="image/png" href="../assets/favicon.png">
@@ -157,18 +173,18 @@ function regenerate_site(): array {
 <script type="application/ld+json">{$ldJson}</script>
 <script type="application/ld+json">{$ldBcJson}</script>
 <script type="application/ld+json">{$ldFaqJson}</script>
-<link rel="stylesheet" href="../css/style.css?v=5">
+<link rel="stylesheet" href="../css/style.css?v=6">
 </head>
 <body>
 <header class="site-header">
   <div class="container header-inner">
-    <a href="../index.html" class="brand" aria-label="Kawasaki Greentech — Beranda">
+    <a href="../" class="brand" aria-label="Kawasaki Greentech — Beranda">
       <img src="../assets/img/logo-inv.png" alt="Logo Kawasaki Greentech" height="40">
     </a>
     <nav class="site-nav" aria-label="Navigasi">
-      <a href="../index.html#galeri">Galeri Motor</a>
-      <a href="../index.html#tentang">Tentang Kami</a>
-      <a href="../index.html#kontak">Kontak</a>
+      <a href="../#galeri">Galeri Motor</a>
+      <a href="../#tentang">Tentang Kami</a>
+      <a href="../#kontak">Kontak</a>
       <a class="btn-wa" href="{$wa}" target="_blank" rel="noopener">Hubungi Kami</a>
     </nav>
   </div>
@@ -177,15 +193,15 @@ function regenerate_site(): array {
 <section class="section">
   <div class="container">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="../index.html">Beranda</a> <span>/</span> <a href="../index.html#galeri">Galeri</a> <span>/</span> <span>{$nama}</span>
+      <a href="../">Beranda</a> <span>/</span> <a href="../#galeri">Galeri</a> <span>/</span> <span>{$nama}</span>
     </nav>
     <div class="detail-layout">
       <div class="detail-photos">
-        <div class="photo-wrap">
-          <img src="../assets/img/{$m['foto']}?v=6" alt="Motor Kawasaki {$nama}" width="800" height="450">
-          <p class="img-caption">Gambar hanya ilustrasi, warna sesuai yang tersedia di toko.</p>
+        <div class="carousel">
+          <div class="carousel-track">{$slidesHtml}</div>
+          {$carouselControls}
         </div>
-        {$foto2block}
+        <p class="img-caption">Gambar hanya ilustrasi, warna sesuai yang tersedia di toko.</p>
       </div>
       <div class="detail-info">
         <p class="modal-kode">{$m['kode']}</p>
@@ -196,7 +212,7 @@ function regenerate_site(): array {
         <ul class="modal-specs">{$specsHtml}</ul>
         <div class="modal-actions">
           <a class="btn btn-primary" href="{$wa}" target="_blank" rel="noopener">💬 Tanya &amp; Cek Ketersediaan</a>
-          <a class="btn btn-ghost" href="../index.html#kontak">Kunjungi Showroom</a>
+          <a class="btn btn-ghost" href="../#kontak">Kunjungi Showroom</a>
         </div>
       </div>
     </div>
@@ -221,7 +237,7 @@ function regenerate_site(): array {
         <div><span>Estimasi total bayar</span><strong id="kredit-total">—</strong></div>
       </div>
     </div>
-    <p class="back-link"><a href="../index.html#galeri">← Kembali ke galeri motor</a></p>
+    <p class="back-link"><a href="../#galeri">← Kembali ke galeri motor</a></p>
   </div>
 </section>
 </main>
@@ -232,9 +248,9 @@ function regenerate_site(): array {
       <p>PT Greentech Cakrawala Motorindo — dealer resmi motor Kawasaki. Jl. Soekarno-Hatta No.1, Pekanbaru, Riau 28292. WA 0812-7775-5006.</p>
     </div>
     <nav aria-label="Navigasi footer">
-      <a href="../index.html#galeri">Galeri Motor</a>
-      <a href="../index.html#tentang">Tentang Kami</a>
-      <a href="../index.html#kontak">Kontak</a>
+      <a href="../#galeri">Galeri Motor</a>
+      <a href="../#tentang">Tentang Kami</a>
+      <a href="../#kontak">Kontak</a>
     </nav>
   </div>
   <div class="container footer-bottom">
@@ -243,6 +259,21 @@ function regenerate_site(): array {
 </footer>
 <script src="../js/kredit.js?v=3" defer></script>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script>
+(function(){
+  var c = document.querySelector('.carousel'); if (!c) return;
+  var track = c.querySelector('.carousel-track');
+  var slides = c.querySelectorAll('.carousel-slide');
+  var dots = c.querySelectorAll('.carousel-dot');
+  var prev = c.querySelector('.carousel-prev'), next = c.querySelector('.carousel-next');
+  if (slides.length <= 1) return;
+  var idx = 0;
+  function go(n){ idx = (n + slides.length) % slides.length; track.style.transform = 'translateX(-' + (idx * 100) + '%)'; dots.forEach(function(d,i){ d.classList.toggle('is-active', i === idx); }); }
+  if (prev) prev.addEventListener('click', function(){ go(idx - 1); });
+  if (next) next.addEventListener('click', function(){ go(idx + 1); });
+  dots.forEach(function(d,i){ d.addEventListener('click', function(){ go(i); }); });
+})();
+</script>
 </body>
 </html>
 HTML;
