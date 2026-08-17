@@ -104,7 +104,7 @@
         '<div class="card-photo">' +
           '<span class="card-badge">● Tersedia</span>' +
           '<span class="card-cat">' + esc(m.kategori) + "</span>" +
-          '<img src="assets/img/' + esc(m.foto) + '" alt="Motor Kawasaki ' + esc(m.nama) + '" loading="lazy" width="640" height="400">' +
+          '<img src="assets/img/' + esc(m.foto) + '?v=6" alt="Motor Kawasaki ' + esc(m.nama) + '" loading="lazy" width="640" height="400">' +
           '<p class="img-caption">Gambar hanya ilustrasi, warna sesuai yang tersedia di toko.</p>' +
         "</div>" +
         '<div class="card-body">' +
@@ -151,7 +151,7 @@
       : "";
     els.modalBody.innerHTML =
       '<div class="modal-photo">' +
-        '<img src="assets/img/' + esc(m.foto) + '" alt="Motor Kawasaki ' + esc(m.nama) + '">' +
+        '<img src="assets/img/' + esc(m.foto) + '?v=6" alt="Motor Kawasaki ' + esc(m.nama) + '">' +
         '<p class="img-caption">Gambar hanya ilustrasi, warna sesuai yang tersedia di toko.</p>' +
       "</div>" +
       foto2 +

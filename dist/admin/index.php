@@ -70,6 +70,8 @@ button{width:100%;margin-top:12px;padding:12px;border:0;border-radius:10px;backg
     exit;
 }
 
+require_once __DIR__ . '/regenerate.php';
+
 $view = $_GET['view'] ?? 'prospek';
 
 // ---- Update status prospek ----
@@ -98,6 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['aksi'] ?? '') === 'edit_mo
         $harga !== '' ? (int)$harga : null,
         $id,
     ]);
+    @regenerate_site();
     header('Location: index.php?view=motor&saved=1'); exit;
 }
 
@@ -111,6 +114,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['aksi'] ?? '') === 'upload_
             if ($name === '') { $name = 'foto-' . time() . '.' . $ext; }
             if (!preg_match('/\.' . $ext . '$/i', $name)) { $name .= '.' . $ext; }
             if (move_uploaded_file($_FILES['foto_file']['tmp_name'], __DIR__ . '/../assets/img/' . $name)) {
+                @regenerate_site();
                 header('Location: index.php?view=motor&uploaded=' . rawurlencode($name)); exit;
             }
         }
@@ -266,6 +270,7 @@ select,input[type=text],input[type=number],textarea{font-size:13px;padding:6px 8
 <div class="panel">
   <h2>Kelola Data Motor (foto, kategori, deskripsi, harga)</h2>
   <p class="muted">Perubahan langsung tersimpan ke database ERP dan tampil di website (galeri &amp; halaman detail).</p>
+  <p style="margin:10px 0"><a class="save-btn" href="regenerate.php" style="text-decoration:none;display:inline-block">↻ Regenerate Halaman Detail &amp; Sitemap</a></p>
 
   <?php if (($_GET['saved'] ?? '') === '1'): ?><div class="notice">✓ Data motor tersimpan.</div><?php endif; ?>
   <?php if (($_GET['uperr'] ?? '') === '1'): ?><div class="notice" style="background:#fdeaea;color:#c53030">Gagal upload foto (ukuran/format tidak sesuai).</div><?php endif; ?>
