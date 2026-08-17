@@ -77,3 +77,4 @@ ke WebP (quality 85, dimensi asli) tanpa menurunkan resolusi sumber.
 - Hotlink protection + `Options -Indexes`.
 - Tidak ada input user → permukaan serangan minimal.
 # Test auto-deploy 11:31
+# Catatan deploy otomatis aktif (webhook) — 2026-08-17
