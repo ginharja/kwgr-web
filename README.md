@@ -76,3 +76,4 @@ ke WebP (quality 85, dimensi asli) tanpa menurunkan resolusi sumber.
 - Security headers (CSP, HSTS, X-Frame-Options, nosniff).
 - Hotlink protection + `Options -Indexes`.
 - Tidak ada input user → permukaan serangan minimal.
+# Test auto-deploy 11:31
