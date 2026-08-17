@@ -1,0 +1,7 @@
+# Kredensial & file sensitif — JANGAN di-commit
+config/web-db.php
+*.sql
+*.log
+.env
+.DS_Store
+node_modules/
