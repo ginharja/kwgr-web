@@ -16,8 +16,17 @@
 declare(strict_types=1);
 
 // ---- Konfigurasi: kredensial DB TIDAK di repo — file config di luar webroot ----
-$__cfgFile = __DIR__ . '/../config/web-db.php';
-if (!is_file($__cfgFile)) {
+// Lokasi dicari berurutan: (1) di luar webroot, (2) folder config (deny by .htaccess)
+$__cfgCandidates = [
+    dirname(__DIR__, 2) . '/web-config/web-db.php',   // /www/wwwroot/web-config/
+    dirname(__DIR__, 1) . '/../web-config/web-db.php',
+    __DIR__ . '/../config/web-db.php',                // fallback dalam webroot (dilindungi .htaccess)
+];
+$__cfgFile = null;
+foreach ($__cfgCandidates as $__c) {
+    if (is_file($__c)) { $__cfgFile = $__c; break; }
+}
+if ($__cfgFile === null) {
     http_response_code(500);
     header('Content-Type: application/json; charset=utf-8');
     echo json_encode(['error' => 'konfigurasi server belum tersedia']);
