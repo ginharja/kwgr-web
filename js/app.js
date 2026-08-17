@@ -17,7 +17,8 @@
 
   var state = {
     data: null,
-    filter: "semua"
+    filter: "semua",
+    visibleCount: 12
   };
 
   var els = {
@@ -57,7 +58,7 @@
   }
 
   function detailHref(m) {
-    return "motor/" + slug(m.kode) + ".html";
+    return "motor/" + slug(m.kode) + "/";
   }
 
   function setWaLinks() {
@@ -122,14 +123,32 @@
     if (state.filter !== "semua") {
       list = list.filter(function (m) { return m.kategori === state.filter; });
     }
-    els.grid.innerHTML = list.map(cardHTML).join("");
-    els.gridStatus.textContent = list.length + " motor ditampilkan";
+    var total = list.length;
+    var visible = list.slice(0, state.visibleCount);
+    els.grid.innerHTML = visible.map(cardHTML).join("");
+    els.gridStatus.textContent = visible.length + " dari " + total + " motor ditampilkan";
     els.grid.querySelectorAll(".card").forEach(function (card) {
       card.addEventListener("click", function () { openModal(Number(card.dataset.id)); });
       card.addEventListener("keydown", function (e) {
         if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openModal(Number(card.dataset.id)); }
       });
     });
+    renderLoadMore(total);
+  }
+
+  function renderLoadMore(total) {
+    var wrap = document.getElementById("load-more-wrap");
+    if (!wrap) return;
+    if (state.visibleCount < total) {
+      var left = total - state.visibleCount;
+      wrap.innerHTML = '<button class="btn btn-ghost load-more" id="load-more" type="button">Muat Lebih Banyak (' + left + ' motor lagi)</button>';
+      wrap.querySelector("#load-more").addEventListener("click", function () {
+        state.visibleCount += 12;
+        renderGrid();
+      });
+    } else {
+      wrap.innerHTML = "";
+    }
   }
 
   function findMotor(id) {
@@ -216,6 +235,7 @@
         document.querySelectorAll(".filter-chip").forEach(function (c) { c.classList.remove("active"); });
         chip.classList.add("active");
         state.filter = chip.dataset.filter;
+        state.visibleCount = 12;
         renderGrid();
       });
     });

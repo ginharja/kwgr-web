@@ -90,7 +90,7 @@ function regenerate_site(): array {
         foreach ($galleryFotos as $gf) {
             $active = $gi === 0 ? ' is-active' : '';
             $loading = $gi === 0 ? 'eager' : 'lazy';
-            $slidesHtml .= '<div class="carousel-slide' . $active . '"><img src="../assets/img/' . kwgr_esc($gf) . '?v=7" alt="Kawasaki ' . kwgr_esc($nama) . ' ' . kwgr_esc($m['kode']) . ' Pekanbaru — foto ' . ($gi + 1) . '" loading="' . $loading . '"></div>';
+            $slidesHtml .= '<div class="carousel-slide' . $active . '"><img src="/assets/img/' . kwgr_esc($gf) . '?v=7" alt="Kawasaki ' . kwgr_esc($nama) . ' ' . kwgr_esc($m['kode']) . ' Pekanbaru — foto ' . ($gi + 1) . '" loading="' . $loading . '"></div>';
             $dotsHtml .= '<button class="carousel-dot' . $active . '" data-i="' . $gi . '" aria-label="Foto ' . ($gi + 1) . '" type="button"></button>';
             $gi++;
         }
@@ -135,7 +135,7 @@ function regenerate_site(): array {
             'itemListElement' => [
                 ['@type' => 'ListItem', 'position' => 1, 'name' => 'Beranda', 'item' => $BASE . '/'],
                 ['@type' => 'ListItem', 'position' => 2, 'name' => 'Galeri Motor', 'item' => $BASE . '/#galeri'],
-                ['@type' => 'ListItem', 'position' => 3, 'name' => $nama, 'item' => $BASE . '/motor/' . $slug . '.html'],
+                ['@type' => 'ListItem', 'position' => 3, 'name' => $nama, 'item' => $BASE . '/motor/' . $slug . '/'],
             ],
         ];
         $ldFaq = [
@@ -163,28 +163,28 @@ function regenerate_site(): array {
 <meta name="description" content="{$descMeta}">
 <meta name="keywords" content="harga {$nama}, {$m['kode']}, dealer kawasaki pekanbaru, kredit {$nama}, kawasaki greentech riau">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="{$BASE}/motor/{$slug}.html">
-<link rel="icon" type="image/png" href="../assets/favicon.png">
+<link rel="canonical" href="{$BASE}/motor/{$slug}/">
+<link rel="icon" type="image/png" href="/assets/favicon.png">
 <meta property="og:type" content="product">
 <meta property="og:title" content="{$title}">
 <meta property="og:description" content="{$descMeta}">
 <meta property="og:image" content="{$BASE}/assets/img/{$m['foto']}">
-<meta property="og:url" content="{$BASE}/motor/{$slug}.html">
+<meta property="og:url" content="{$BASE}/motor/{$slug}/">
 <script type="application/ld+json">{$ldJson}</script>
 <script type="application/ld+json">{$ldBcJson}</script>
 <script type="application/ld+json">{$ldFaqJson}</script>
-<link rel="stylesheet" href="../css/style.css?v=9">
+<link rel="stylesheet" href="/css/style.css?v=10">
 </head>
 <body>
 <header class="site-header">
   <div class="container header-inner">
-    <a href="../" class="brand" aria-label="Kawasaki Greentech — Beranda">
-      <img src="../assets/img/logo-inv.png" alt="Logo Kawasaki Greentech" height="40">
+    <a href="/" class="brand" aria-label="Kawasaki Greentech — Beranda">
+      <img src="/assets/img/logo-inv.png" alt="Logo Kawasaki Greentech" height="40">
     </a>
     <nav class="site-nav" aria-label="Navigasi">
-      <a href="../#galeri">Galeri Motor</a>
-      <a href="../#tentang">Tentang Kami</a>
-      <a href="../#kontak">Kontak</a>
+      <a href="/#galeri">Galeri Motor</a>
+      <a href="/#tentang">Tentang Kami</a>
+      <a href="/#kontak">Kontak</a>
       <a class="btn-wa" href="{$wa}" target="_blank" rel="noopener">Hubungi Kami</a>
     </nav>
   </div>
@@ -193,7 +193,7 @@ function regenerate_site(): array {
 <section class="section">
   <div class="container">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="../">Beranda</a> <span>/</span> <a href="../#galeri">Galeri</a> <span>/</span> <span>{$nama}</span>
+      <a href="/">Beranda</a> <span>/</span> <a href="/#galeri">Galeri</a> <span>/</span> <span>{$nama}</span>
     </nav>
     <div class="detail-layout">
       <div class="detail-photos">
@@ -212,7 +212,7 @@ function regenerate_site(): array {
         <ul class="modal-specs">{$specsHtml}</ul>
         <div class="modal-actions">
           <a class="btn btn-primary" href="{$wa}" target="_blank" rel="noopener">💬 Tanya &amp; Cek Ketersediaan</a>
-          <a class="btn btn-ghost" href="../#kontak">Kunjungi Showroom</a>
+          <a class="btn btn-ghost" href="/#kontak">Kunjungi Showroom</a>
         </div>
       </div>
     </div>
@@ -237,7 +237,7 @@ function regenerate_site(): array {
         <div><span>Estimasi total bayar</span><strong id="kredit-total">—</strong></div>
       </div>
     </div>
-    <p class="back-link"><a href="../#galeri">← Kembali ke galeri motor</a></p>
+    <p class="back-link"><a href="/#galeri">← Kembali ke galeri motor</a></p>
   </div>
 </section>
 </main>
@@ -248,16 +248,16 @@ function regenerate_site(): array {
       <p>PT Greentech Cakrawala Motorindo — dealer resmi motor Kawasaki. Jl. Soekarno-Hatta No.1, Pekanbaru, Riau 28292. WA 0812-7775-5006.</p>
     </div>
     <nav aria-label="Navigasi footer">
-      <a href="../#galeri">Galeri Motor</a>
-      <a href="../#tentang">Tentang Kami</a>
-      <a href="../#kontak">Kontak</a>
+      <a href="/#galeri">Galeri Motor</a>
+      <a href="/#tentang">Tentang Kami</a>
+      <a href="/#kontak">Kontak</a>
     </nav>
   </div>
   <div class="container footer-bottom">
     <p>© <span id="year"></span> Kawasaki Greentech. Foto © PT Kawasaki Motor Indonesia.</p>
   </div>
 </footer>
-<script src="../js/kredit.js?v=4" defer></script>
+<script src="/js/kredit.js?v=4" defer></script>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 <script>
 (function(){
@@ -277,8 +277,12 @@ function regenerate_site(): array {
 </body>
 </html>
 HTML;
-        file_put_contents($webroot . '/motor/' . $slug . '.html', $html);
-        $urls[] = '<url><loc>' . $BASE . '/motor/' . $slug . '.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>';
+        @mkdir($webroot . '/motor/' . $slug, 0755, true);
+        file_put_contents($webroot . '/motor/' . $slug . '/index.html', $html);
+        // Redirect lama .html -> clean URL (tanpa .html)
+        $redirect = '<!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><title>' . kwgr_esc($nama) . '</title><link rel="canonical" href="' . $BASE . '/motor/' . $slug . '/"><meta http-equiv="refresh" content="0;url=/motor/' . $slug . '/"></head><body style="font-family:sans-serif;padding:2rem"><p>Membuka <a href="/motor/' . $slug . '/">' . kwgr_esc($nama) . '</a>…</p></body></html>';
+        file_put_contents($webroot . '/motor/' . $slug . '.html', $redirect);
+        $urls[] = '<url><loc>' . $BASE . '/motor/' . $slug . '/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>';
         $n++;
     }
 
