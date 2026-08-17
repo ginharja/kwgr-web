@@ -7,7 +7,7 @@
 <meta name="description" content="Dealer resmi Kawasaki Pekanbaru (PT Greentech Cakrawala Motorindo) — Jl. Soekarno-Hatta No.1. Galeri motor: KLX150, Ninja H2, Z900, W175, Meguro S1. Stok tersedia real-time. WA 0812-7775-5006.">
 <meta name="keywords" content="kawasaki, dealer kawasaki, motor kawasaki, kawasaki bagan batu, kawasaki riau, klx150, ninja h2, z900, w175, beli motor kawasaki">
 <meta name="robots" content="index, follow">
-<meta name="theme-color" content="#0b0f14">
+<meta name="theme-color" content="#6fa82c">
 <link rel="canonical" href="https://kawasakigreentech.co.id/">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 
@@ -57,7 +57,30 @@
 }
 </script>
 
-<link rel="stylesheet" href="css/style.css?v=4">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Kawasaki Greentech",
+  "url": "https://kawasakigreentech.co.id",
+  "inLanguage": "id-ID"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "Apakah harga di website sudah final?", "acceptedAnswer": {"@type": "Answer", "text": "Harga belum termasuk biaya administrasi, pajak, dan asuransi. Hubungi tim sales kami untuk penawaran resmi."}},
+    {"@type": "Question", "name": "Apakah unit yang tampil benar-benar tersedia?", "acceptedAnswer": {"@type": "Answer", "text": "Ya, hanya unit berstatus TERSEDIA di sistem dealer yang ditampilkan dan diperbarui secara berkala."}},
+    {"@type": "Question", "name": "Bagaimana cara pengajuan kredit?", "acceptedAnswer": {"@type": "Answer", "text": "Hubungi WhatsApp 0812-7775-5006, tim kami akan membantu simulasi dan pengajuan ke leasing resmi."}},
+    {"@type": "Question", "name": "Apakah warna yang tampil sesuai dengan unit di toko?", "acceptedAnswer": {"@type": "Answer", "text": "Gambar hanya ilustrasi; ketersediaan warna mengikuti stok yang tersedia di toko."}}
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="css/style.css?v=5">
 </head>
 <body>
 
@@ -196,9 +219,35 @@
       <iframe src="https://www.instagram.com/kawasakigreentechpekanbaru/embed"
               title="Instagram Kawasaki Greentech Pekanbaru"
               loading="lazy" width="400" height="480" frameborder="0" scrolling="no"
-              allowtransparency="true" style="border:0;border-radius:14px;background:#0d131b"></iframe>
+              allowtransparency="true" style="border:0;border-radius:14px;background:#fff"></iframe>
       <a class="btn btn-primary ig-follow" href="https://www.instagram.com/kawasakigreentechpekanbaru" target="_blank" rel="noopener">Buka Profil Instagram</a>
     </div>
+  </div>
+</section>
+
+<!-- ===== PROSPEK ===== -->
+<section class="section" id="prospek">
+  <div class="container" style="max-width:640px">
+    <div class="section-head">
+      <p class="section-kicker">Dapatkan Penawaran</p>
+      <h2>Minta Penawaran &amp; Info Stok</h2>
+      <p>Isi nomor WhatsApp Anda — tim sales kami akan segera menghubungi dengan penawaran terbaik.</p>
+    </div>
+    <form class="prospek-form" id="prospek-form" novalidate>
+      <label>Nama (opsional)
+        <input type="text" name="nama" placeholder="Nama Anda" autocomplete="name">
+      </label>
+      <label>Nomor WhatsApp <span style="color:var(--danger)">*</span>
+        <input type="tel" name="no_wa" placeholder="Contoh: 0812xxxxxxx" required autocomplete="tel">
+      </label>
+      <label>Motor yang diminati
+        <select name="id_motor" id="prospek-motor">
+          <option value="">— Pilih motor (opsional) —</option>
+        </select>
+      </label>
+      <button type="submit" class="btn btn-primary">Kirim &amp; Dapatkan Penawaran</button>
+      <p class="prospek-msg" id="prospek-msg" role="status" aria-live="polite"></p>
+    </form>
   </div>
 </section>
 </main>
@@ -234,6 +283,7 @@
 <!-- Loader -->
 <div class="loader" id="loader" hidden><div class="spinner"></div></div>
 
-<script src="js/app.js?v=4" defer></script>
+<script src="js/app.js?v=5" defer></script>
+<script src="js/prospek.js?v=5" defer></script>
 </body>
 </html>
