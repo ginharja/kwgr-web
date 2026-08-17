@@ -10,8 +10,8 @@
   var CONFIG = {
     // Di server Vultr: API live membaca DB ERP (SELECT-only, tanpa kredensial di sini)
     API: "api/motor.php",
-    // Nomor WhatsApp sales (format internasional tanpa "+"): ganti di server
-    WA: "",
+    // Nomor WhatsApp sales (format internasional tanpa "+")
+    WA: "6285356878391",
     WA_TEXT: "Halo Kawasaki Greentech, saya ingin bertanya tentang motor Kawasaki."
   };
 
@@ -43,13 +43,21 @@
   }
 
   function waHref(motor) {
-    var base = "https://wa.me/" + (CONFIG.WA || "6281234567890");
+    var base = "https://wa.me/" + (CONFIG.WA || "6285356878391");
     var text = encodeURIComponent(
       "Halo Kawasaki Greentech, saya tertarik dengan " +
       (motor ? motor.nama + " (" + fmtRupiah(motor.harga) + ")" : "motor Kawasaki") +
       ". Apakah masih tersedia?"
     );
     return base + "?text=" + text;
+  }
+
+  function slug(k) {
+    return String(k || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  }
+
+  function detailHref(m) {
+    return "motor/" + slug(m.kode) + ".html";
   }
 
   function setWaLinks() {
@@ -100,7 +108,7 @@
         "</div>" +
         '<div class="card-body">' +
           '<p class="card-kode">' + esc(m.kode) + "</p>" +
-          '<h3 class="card-nama">' + esc(m.nama) + "</h3>" +
+          '<h3 class="card-nama"><a href="' + detailHref(m) + '">' + esc(m.nama) + "</a></h3>" +
           '<p class="card-harga">' + fmtRupiah(m.harga) + " <small>OTR*</small></p>" +
           unit +
           '<div class="card-cta"><span class="btn btn-primary">Lihat Detail</span></div>' +
@@ -155,7 +163,7 @@
         "</ul>" +
         '<div class="modal-actions">' +
           '<a class="btn btn-primary" href="' + waHref(m) + '" target="_blank" rel="noopener">💬 Tanya & Cek Ketersediaan</a>' +
-          '<a class="btn btn-ghost" href="#kontak" data-close-inline>Kunjungi Showroom</a>' +
+          '<a class="btn btn-ghost" href="' + detailHref(m) + '">Lihat Halaman Detail</a>' +
         "</div>" +
       "</div>";
     els.modal.hidden = false;
