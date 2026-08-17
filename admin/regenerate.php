@@ -90,7 +90,7 @@ function regenerate_site(): array {
         foreach ($galleryFotos as $gf) {
             $active = $gi === 0 ? ' is-active' : '';
             $loading = $gi === 0 ? 'eager' : 'lazy';
-            $slidesHtml .= '<div class="carousel-slide' . $active . '"><img src="../assets/img/' . kwgr_esc($gf) . '?v=6" alt="Kawasaki ' . kwgr_esc($nama) . ' ' . kwgr_esc($m['kode']) . ' Pekanbaru — foto ' . ($gi + 1) . '" loading="' . $loading . '"></div>';
+            $slidesHtml .= '<div class="carousel-slide' . $active . '"><img src="../assets/img/' . kwgr_esc($gf) . '?v=7" alt="Kawasaki ' . kwgr_esc($nama) . ' ' . kwgr_esc($m['kode']) . ' Pekanbaru — foto ' . ($gi + 1) . '" loading="' . $loading . '"></div>';
             $dotsHtml .= '<button class="carousel-dot' . $active . '" data-i="' . $gi . '" aria-label="Foto ' . ($gi + 1) . '" type="button"></button>';
             $gi++;
         }
@@ -173,7 +173,7 @@ function regenerate_site(): array {
 <script type="application/ld+json">{$ldJson}</script>
 <script type="application/ld+json">{$ldBcJson}</script>
 <script type="application/ld+json">{$ldFaqJson}</script>
-<link rel="stylesheet" href="../css/style.css?v=6">
+<link rel="stylesheet" href="../css/style.css?v=7">
 </head>
 <body>
 <header class="site-header">
@@ -257,7 +257,7 @@ function regenerate_site(): array {
     <p>© <span id="year"></span> Kawasaki Greentech. Foto © PT Kawasaki Motor Indonesia.</p>
   </div>
 </footer>
-<script src="../js/kredit.js?v=3" defer></script>
+<script src="../js/kredit.js?v=4" defer></script>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 <script>
 (function(){

@@ -104,7 +104,7 @@
         '<div class="card-photo">' +
           '<span class="card-badge">● Tersedia</span>' +
           '<span class="card-cat">' + esc(m.kategori) + "</span>" +
-          '<img src="assets/img/' + esc(m.foto) + '?v=6" alt="Motor Kawasaki ' + esc(m.nama) + '" loading="lazy" width="640" height="400">' +
+          '<img src="assets/img/' + esc(m.foto) + '?v=7" alt="Motor Kawasaki ' + esc(m.nama) + '" loading="lazy" width="640" height="400">' +
           '<p class="img-caption">Gambar hanya ilustrasi, warna sesuai yang tersedia di toko.</p>' +
         "</div>" +
         '<div class="card-body">' +
@@ -143,21 +143,22 @@
     var warna = (m.warna && m.warna.length)
       ? m.warna.map(function (w) { return "<b>" + esc(w) + "</b>"; }).join(", ")
       : "<b>—</b>";
-    var galeri = "";
-    [m.foto2, m.foto3, m.foto4, m.foto5, m.foto6].forEach(function (f) {
-      if (f) {
-        galeri += '<div class="modal-photo"><img src="assets/img/' + esc(f) + '?v=6" alt="Motor Kawasaki ' + esc(m.nama) + ' tampak lain" loading="lazy"></div>';
-      }
+    var allFotos = [m.foto, m.foto2, m.foto3, m.foto4, m.foto5, m.foto6].filter(function (f) { return f; });
+    var slides = "", dots = "";
+    allFotos.forEach(function (f, i) {
+      slides += '<div class="carousel-slide' + (i === 0 ? " is-active" : "") + '"><img src="assets/img/' + esc(f) + '?v=7" alt="Kawasaki ' + esc(m.nama) + ' ' + esc(m.kode) + ' Pekanbaru — foto ' + (i + 1) + '" loading="' + (i === 0 ? "eager" : "lazy") + '"></div>';
+      dots += '<button class="carousel-dot' + (i === 0 ? " is-active" : "") + '" data-i="' + i + '" type="button" aria-label="Foto ' + (i + 1) + '"></button>';
     });
+    var controls = allFotos.length > 1
+      ? '<button class="carousel-prev" type="button" aria-label="Foto sebelumnya">&#8249;</button><button class="carousel-next" type="button" aria-label="Foto berikutnya">&#8250;</button><div class="carousel-dots">' + dots + '</div>'
+      : "";
+    var carousel = '<div class="carousel"><div class="carousel-track">' + slides + '</div>' + controls + '</div>';
     var deskripsi = m.deskripsi
       ? '<div class="spec-detail"><h4>Spesifikasi Teknis</h4><p>' + esc(m.deskripsi) + '</p></div>'
       : "";
     els.modalBody.innerHTML =
-      '<div class="modal-photo">' +
-        '<img src="assets/img/' + esc(m.foto) + '?v=6" alt="Motor Kawasaki ' + esc(m.nama) + '">' +
-        '<p class="img-caption">Gambar hanya ilustrasi, warna sesuai yang tersedia di toko.</p>' +
-      "</div>" +
-      galeri +
+      carousel +
+      '<p class="img-caption">Gambar hanya ilustrasi, warna sesuai yang tersedia di toko.</p>' +
       '<div class="modal-info">' +
         '<p class="modal-kode">' + esc(m.kode) + "</p>" +
         "<h3>" + esc(m.nama) + "</h3>" +
@@ -177,6 +178,7 @@
       "</div>";
     els.modal.hidden = false;
     document.body.style.overflow = "hidden";
+    initCarousel(els.modalBody.querySelector(".carousel"));
     els.modal.querySelectorAll("[data-close], [data-close-inline]").forEach(function (el) {
       el.addEventListener("click", closeModal);
     });
@@ -186,6 +188,26 @@
   function closeModal() {
     els.modal.hidden = true;
     document.body.style.overflow = "";
+  }
+
+  // ---------- Carousel (slide foto jika > 1) ----------
+  function initCarousel(root) {
+    if (!root) return;
+    var track = root.querySelector(".carousel-track");
+    var slides = root.querySelectorAll(".carousel-slide");
+    var dots = root.querySelectorAll(".carousel-dot");
+    var prev = root.querySelector(".carousel-prev");
+    var next = root.querySelector(".carousel-next");
+    if (!track || slides.length <= 1) return;
+    var idx = 0;
+    function go(n) {
+      idx = (n + slides.length) % slides.length;
+      track.style.transform = "translateX(-" + (idx * 100) + "%)";
+      dots.forEach(function (d, i) { d.classList.toggle("is-active", i === idx); });
+    }
+    if (prev) prev.addEventListener("click", function () { go(idx - 1); });
+    if (next) next.addEventListener("click", function () { go(idx + 1); });
+    dots.forEach(function (d, i) { d.addEventListener("click", function () { go(i); }); });
   }
 
   // ---------- Init ----------
