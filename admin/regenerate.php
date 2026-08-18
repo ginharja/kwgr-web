@@ -173,7 +173,7 @@ function regenerate_site(): array {
 <script type="application/ld+json">{$ldJson}</script>
 <script type="application/ld+json">{$ldBcJson}</script>
 <script type="application/ld+json">{$ldFaqJson}</script>
-<link rel="stylesheet" href="/css/style.css?v=10">
+<link rel="stylesheet" href="/css/style.css?v=11">
 </head>
 <body>
 <header class="site-header">
@@ -284,6 +284,19 @@ HTML;
         file_put_contents($webroot . '/motor/' . $slug . '.html', $redirect);
         $urls[] = '<url><loc>' . $BASE . '/motor/' . $slug . '/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>';
         $n++;
+    }
+
+    // Artikel (hanya yang sudah tayang — tanggal <= hari ini; jadwal tayang otomatis)
+    $artikelJson = $webroot . '/artikel/data/artikel.json';
+    if (is_file($artikelJson)) {
+        $artikelList = json_decode((string)file_get_contents($artikelJson), true) ?: [];
+        $today = date('Y-m-d');
+        foreach ($artikelList as $a) {
+            if (isset($a['slug'], $a['date']) && $a['date'] <= $today) {
+                $urls[] = '<url><loc>' . $BASE . '/artikel/' . $a['slug'] . '/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>';
+            }
+        }
+        $urls[] = '<url><loc>' . $BASE . '/artikel/</loc><changefreq>daily</changefreq><priority>0.7</priority></url>';
     }
 
     $sitemap = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  " .

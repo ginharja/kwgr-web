@@ -394,3 +394,48 @@ button { font-family: inherit; cursor: pointer; }
   .footer-inner { flex-direction: column; gap: 18px; }
   .footer-bottom { flex-direction: column; gap: 6px; }
 }
+
+
+/* ============================================================
+   ARTIKEL — halaman artikel & listing
+   ============================================================ */
+.artikel-listing .section-head { max-width: 720px; }
+.artikel-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; margin-top: 8px; }
+.artikel-card {
+  display: flex; flex-direction: column; gap: 10px;
+  padding: 22px; border: 1px solid var(--line); border-radius: var(--radius);
+  background: #fff; transition: transform .15s, box-shadow .2s, border-color .2s;
+}
+.artikel-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-color: var(--green); }
+.artikel-card-kicker { font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--green); margin: 0; }
+.artikel-card h2 { font-size: 18px; line-height: 1.35; color: var(--text); margin: 0; }
+.artikel-card-excerpt { font-size: 14px; color: var(--muted); line-height: 1.6; margin: 0; }
+.artikel-card-date { font-size: 12.5px; color: var(--muted); margin: 0; border-top: 1px solid var(--line); padding-top: 10px; margin-top: auto; }
+.artikel-empty { grid-column: 1 / -1; padding: 32px; text-align: center; color: var(--muted); border: 1px dashed var(--line); border-radius: var(--radius); }
+
+.artikel-container { max-width: 760px; }
+.artikel-header { margin: 8px 0 28px; }
+.artikel-header h1 { font-size: 30px; line-height: 1.25; color: var(--text); margin: 8px 0 12px; }
+.artikel-meta { font-size: 13.5px; color: var(--muted); }
+.artikel-body { font-size: 16.5px; line-height: 1.8; color: #2a323c; }
+.artikel-body h2 { font-size: 22px; margin: 34px 0 12px; color: var(--text); }
+.artikel-body h3 { font-size: 18px; margin: 26px 0 8px; color: var(--text); }
+.artikel-body p { margin: 0 0 16px; }
+.artikel-body ul, .artikel-body ol { margin: 0 0 16px; padding-left: 24px; }
+.artikel-body li { margin-bottom: 8px; }
+.artikel-body strong { color: var(--text); }
+.artikel-body em { color: #39424d; }
+
+.artikel-cta {
+  margin-top: 40px; padding: 28px; border-radius: var(--radius);
+  background: var(--green-soft); border: 1px solid rgba(111, 168, 44, 0.25);
+  text-align: center;
+}
+.artikel-cta h2 { font-size: 21px; margin: 0 0 8px; color: var(--text); }
+.artikel-cta p { color: var(--muted); margin: 0 0 18px; }
+.artikel-cta .btn { display: inline-block; }
+
+@media (max-width: 480px) {
+  .artikel-header h1 { font-size: 24px; }
+  .artikel-grid { grid-template-columns: 1fr; }
+}
